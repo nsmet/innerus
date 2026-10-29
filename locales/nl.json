@@ -1,0 +1,5 @@
+{
+  "NSMicrophoneUsageDescription": "InnerUs gebruikt de microfoon om een antwoord op te nemen, alleen wanneer jij een opname start.",
+  "NSSpeechRecognitionUsageDescription": "InnerUs gebruikt spraakherkenning op dit apparaat om je gekozen opname om te zetten naar bewerkbare tekst, wanneer dat wordt ondersteund.",
+  "NSFaceIDUsageDescription": "InnerUs kan Face ID gebruiken om je momenten privé te houden wanneer je app-vergrendeling aanzet."
+}

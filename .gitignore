@@ -1,0 +1,18 @@
+node_modules/
+.expo/
+dist/
+coverage/
+/ios/
+/android/
+.DS_Store
+*.log
+.env*
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.keystore
+# v1 app reference copy: contains Google service-account private keys
+old_app/
+# store credentials (e.g. Play service-account JSON for eas submit)
+credentials/

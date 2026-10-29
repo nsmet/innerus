@@ -1,0 +1,124 @@
+{
+  "expo": {
+    "name": "InnerUs Development",
+    "slug": "innerus-development",
+    "version": "2.0.0",
+    "scheme": "innerus-development",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#FAF6EF",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "updates": {
+      "enabled": false
+    },
+    "ios": {
+      "bundleIdentifier": "local.innerus.development",
+      "supportsTablet": false,
+      "appleTeamId": "HNY46KCWAA",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSSpeechRecognitionUsageDescription": "InnerUs uses on-device speech recognition to turn your selected recording into editable text when supported."
+      },
+      "privacyManifests": {
+        "NSPrivacyTracking": false,
+        "NSPrivacyTrackingDomains": [],
+        "NSPrivacyCollectedDataTypes": [],
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "C617.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategorySystemBootTime",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "35F9.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryDiskSpace",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "E174.1"
+            ]
+          }
+        ]
+      },
+      "icon": {
+        "light": "./assets/brand/ios-icon-1024.png",
+        "dark": "./assets/brand/ios-icon-dark-1024.png",
+        "tinted": "./assets/brand/ios-icon-tinted-1024.png"
+      }
+    },
+    "android": {
+      "package": "local.innerus.development",
+      "allowBackup": false,
+      "blockedPermissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/android-adaptive-foreground.png",
+        "backgroundImage": "./assets/brand/android-adaptive-background.png",
+        "monochromeImage": "./assets/brand/android-monochrome.png",
+        "backgroundColor": "#FAF6EF"
+      }
+    },
+    "plugins": [
+      [
+        "expo-dev-client",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FAF6EF",
+          "image": "./assets/brand/splash-mark.png",
+          "imageWidth": 240,
+          "resizeMode": "contain",
+          "dark": {
+            "backgroundColor": "#241C29",
+            "image": "./assets/brand/splash-mark-dark.png"
+          }
+        }
+      ],
+      "expo-localization",
+      "expo-font",
+      "expo-sqlite",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "InnerUs uses the microphone to record an answer only when you choose to record."
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "InnerUs can use Face ID to keep your moments private when you turn on App lock."
+        }
+      ],
+      "expo-notifications",
+      "expo-iap",
+      "./modules/innerus-platform/app.plugin.js",
+      "./modules/innerus-platform/storekit.plugin.js"
+    ],
+    "locales": {
+      "en": "./locales/en.json",
+      "nl": "./locales/nl.json"
+    },
+    "icon": "./assets/brand/ios-icon-1024.png"
+  }
+}

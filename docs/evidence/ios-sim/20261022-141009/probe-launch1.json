@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-22T12:13:24.260Z",
+  "summary": "ALL STEPS OK · persisted from previous launch: false",
+  "steps": [
+    {
+      "name": "adapter",
+      "ok": true,
+      "detail": {
+        "available": true
+      }
+    },
+    {
+      "name": "private-store",
+      "ok": true,
+      "detail": {
+        "persistedFromPreviousLaunch": false,
+        "savedBodyMatches": true,
+        "searchHits": 1,
+        "count": 1
+      }
+    },
+    {
+      "name": "private-directory",
+      "ok": true,
+      "detail": {
+        "exists": true,
+        "insideApplicationSupport": true,
+        "insideDocuments": false,
+        "protection": "none",
+        "excludedFromBackup": true
+      }
+    },
+    {
+      "name": "database-file",
+      "ok": true,
+      "detail": {
+        "exists": true,
+        "insideApplicationSupport": true,
+        "insideDocuments": false,
+        "protection": "none",
+        "excludedFromBackup": false
+      }
+    },
+    {
+      "name": "attachment-file",
+      "ok": true,
+      "detail": {
+        "insideApplicationSupport": true,
+        "excludedFromBackup": true,
+        "protection": "none",
+        "exists": true,
+        "insideDocuments": false
+      }
+    },
+    {
+      "name": "expo-sqlite-default-directory (not used)",
+      "ok": true,
+      "detail": {
+        "path": "/Users/nsmet/Library/Developer/CoreSimulator/Devices/0F631C32-7A41-4214-A685-9EC00D8B0189/data/Containers/Data/Application/EAB080B5-138E-4CED-8EA4-45793714124F/Documents/SQLite",
+        "note": "Documents/SQLite or filesDir/SQLite is backed up by default; InnerUs does not store here."
+      }
+    },
+    {
+      "name": "capabilities",
+      "ok": true,
+      "detail": {
+        "platform": "ios",
+        "osVersion": "18.0",
+        "isSimulator": true,
+        "summary": {
+          "state": "unsupported-device",
+          "detail": "FoundationModels requires iOS 26"
+        },
+        "transcription": {
+          "detail": "SFSpeechRecognizer with requiresOnDeviceRecognition (pre-iOS 26)",
+          "languages": {
+            "en-US": "ready",
+            "nl-BE": "unsupported-language",
+            "nl-NL": "unsupported-language"
+          },
+          "state": "ready"
+        },
+        "checkedAt": "2026-10-22T12:13:23.936Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import content from "../content/terms.html?raw";
+import "../styles/privacy.css";
+---
+<BaseLayout title="Terms of use — InnerUs" description="Terms of use for InnerUs and information about App Store purchases." path="/terms/">
+  <Fragment set:html={content} />
+</BaseLayout>

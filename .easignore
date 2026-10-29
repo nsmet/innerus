@@ -1,0 +1,34 @@
+# What `eas build` uploads. When this file exists EAS uses it instead of .gitignore,
+# so it repeats every .gitignore rule and adds the large or private folders the build never needs.
+# locales/*.json ARE needed (app.json "locales" → localized iOS permission strings): never ignore them.
+
+# --- from .gitignore ---
+node_modules/
+.expo/
+dist/
+coverage/
+/ios/
+/android/
+.DS_Store
+*.log
+.env*
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.keystore
+# v1 reference copy: contains Google service-account private keys
+old_app/
+# store credentials (Play service-account JSON for eas submit)
+credentials/
+
+# --- not part of the app binary ---
+artwork/
+store/
+docs/
+_to_delete/
+.claude-tmp/
+InnerUs_Developer_Handoff*/
+
+# Standalone website is built and deployed separately from the Expo app
+landing-site/

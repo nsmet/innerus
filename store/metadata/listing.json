@@ -1,0 +1,371 @@
+{
+  "generated": "2026-10-26",
+  "shared": {
+    "bundle_id": "com.nicksmet.innerus",
+    "version": "2.0.0",
+    "platforms": [
+      "iPhone"
+    ],
+    "primary_category": "Lifestyle",
+    "secondary_category": "Entertainment",
+    "category_reasoning": "Lifestyle is where couple and relationship apps are browsed and fits a calm evening ritual. Health & Fitness is the usual alternative (Paired, Lasting), but it frames the app as wellness/therapy, which InnerUs explicitly is not. Entertainment as secondary matches conversation cards and quick questions without that framing. If Nick wants maximum browse exposure next to Paired, swap the secondary to Health & Fitness.",
+    "age_rating": {
+      "apple_result": "4+",
+      "answers": {
+        "Parental controls / age assurance": "No",
+        "Unrestricted web access": "No",
+        "User-generated content shared with others": "No (Moments are private and never leave the device except through the user’s own iCloud/export)",
+        "Messaging and chat": "No",
+        "Advertising": "No",
+        "Cartoon or fantasy violence": "None",
+        "Realistic violence": "None",
+        "Prolonged graphic or sadistic violence": "None",
+        "Profanity or crude humour": "None",
+        "Mature or suggestive themes": "None",
+        "Horror or fear themes": "None",
+        "Medical or treatment information": "None",
+        "Alcohol, tobacco or drug use or references": "None",
+        "Sexual content or nudity": "None",
+        "Graphic sexual content and nudity": "None",
+        "Simulated gambling": "None",
+        "Contests": "None",
+        "Loot boxes": "No",
+        "Health or wellness topics": "No (not therapy, no diagnoses)"
+      },
+      "reasoning": "Questions are about dates, trips, habits and plans; the most intimate words are “laugh, or blush”. No romance-explicit, sexual, alcohol or medical content, no sharing, no web view. The questionnaire therefore yields 4+. Optional: Apple lets you set a higher minimum age; 13+ would signal the adult-couple audience but narrows Family Sharing reach. Recommended: keep 4+.",
+      "google_play_iarc": "Everyone / PEGI 3 / USK 0 expected (no violence, sexual content, gambling, user interaction or location sharing)."
+    },
+    "urls": {
+      "support": "https://innerus.app/support.html",
+      "privacy": "https://innerus.app/privacy.html",
+      "marketing": "https://innerus.app"
+    },
+    "iap_product_ids": {
+      "collection": "com.nicksmet.innerus.collection",
+      "trial": "com.nicksmet.innerus.trial7"
+    },
+    "iap_prices": {
+      "collection": "€9.99 (Tier equivalent, non-consumable)",
+      "trial": "€0.00 (non-consumable, Apple guideline 3.1.1 free-trial item)"
+    }
+  },
+  "en-US": {
+    "app_name": {
+      "text": "InnerUs: Questions for Couples",
+      "chars": 30,
+      "limit": 30
+    },
+    "app_name_options": [
+      {
+        "text": "InnerUs: Questions for Couples",
+        "chars": 30,
+        "limit": 30
+      },
+      {
+        "text": "InnerUs: Couple Conversations",
+        "chars": 29,
+        "limit": 30
+      },
+      {
+        "text": "InnerUs – Talk as a Couple",
+        "chars": 26,
+        "limit": 30
+      }
+    ],
+    "subtitle": {
+      "text": "Ten-minute talks for two",
+      "chars": 24,
+      "limit": 30
+    },
+    "subtitle_options": [
+      {
+        "text": "Ten-minute talks for two",
+        "chars": 24,
+        "limit": 30
+      },
+      {
+        "text": "Illustrated talks for two",
+        "chars": 25,
+        "limit": 30
+      },
+      {
+        "text": "Talk tonight, just you two",
+        "chars": 26,
+        "limit": 30
+      }
+    ],
+    "promotional_text": {
+      "text": "Eighteen illustrated conversations for the two of you. No account, and everything stays on your phone. Six are free, a free week opens the rest, then €9.99 once.",
+      "chars": 161,
+      "limit": 170
+    },
+    "keywords": {
+      "text": "relationship,partner,date,night,love,marriage,conversation,starters,deep,intimacy,boyfriend,spouse",
+      "bytes": 98,
+      "limit": 100
+    },
+    "description": {
+      "text": "InnerUs gives the two of you a conversation for tonight. Put the phone between you, read the question out loud and talk. A conversation takes about ten minutes, and nothing counts down.\n\nHOW IT WORKS\n• Start the conversation that is ready on Tonight, or pick one yourself.\n• Five questions build like a story, illustrated in watercolour.\n• Stuck? Open a nudge for an angle or a few examples. Or skip the question.\n• A closing question asks what you want to remember.\n• No time for a whole conversation? Ask for one quick question.\n\nWHAT YOU TALK ABOUT\n18 conversations in three themes:\n• Our story: your first date, a trip you still talk about, a hard season you got through together.\n• Us today: an ordinary Tuesday, the things that make you laugh, what money means to each of you.\n• What's next: a Saturday of your own, a dream you keep postponing, the next chapter you hope for.\n\nThe questions ask about real things: a day, a place, a habit, something one of you said. They never assume how long you have been together, whether you are married or whether you have children. There are no scores, no tests and no streaks. InnerUs is not therapy. It is a good reason to talk.\n\nKEEP WHAT MATTERS (OPTIONAL)\nSave a moment from any conversation: a typed note, or a voice recording of an answer. On supported iPhones, InnerUs can turn a recording into text and suggest a short summary, entirely on your iPhone. You check it before anything is saved. On other iPhones you simply write the note yourself.\n\nPRIVATE BY DESIGN\n• No account, no sign-in, no email address.\n• No analytics, no tracking, no ads.\n• Everything stays on your iPhone. We run no server that stores your conversations.\n• Optional sync through your own private iCloud.\n• Lock the app with Face ID.\n• Export everything, or delete it all, whenever you want.\n\nWHAT IT COSTS\n• Six conversations are free for good, including Our first date, An ordinary Tuesday and A Saturday of our own. Quick questions are free too.\n• Want to try the rest? Start your free week with one tap. All 18 conversations open, nothing is charged and the week ends by itself.\n• Keep the other 12 with one payment of €9.99 (or the equivalent in your currency). No subscription. Nothing renews.\n• Recording, Moments, iCloud sync and export are never behind a payment.\n\nPrivacy policy: https://innerus.app/privacy.html\nSupport: https://innerus.app/support.html",
+      "chars": 2391,
+      "limit": 4000
+    },
+    "whats_new": {
+      "text": "InnerUs 2.0 is completely rebuilt.\n\n• No account anymore. Everything now lives on your iPhone, with optional sync through your own iCloud.\n• 18 conversations in three themes, with new watercolour paintings.\n• The subscription is gone. Six conversations stay free, a free week opens the rest, and one payment of €9.99 keeps them for good.\n\nPaid for a subscription before? Thank you. The full collection is now yours for good, at no extra cost, on every iPhone with the same Apple Account. You don't need the subscription anymore: cancel it in Settings › your name › Subscriptions.\n\nYour progress and the notes you wrote in the previous version were stored in your online account. They don't come along to this version.\n\nWant a copy of the notes you wrote in the previous version? Email info@innerus.app and we'll send them to you.",
+      "chars": 829,
+      "limit": 4000
+    },
+    "iap_collection_name": {
+      "text": "InnerUs Full Collection",
+      "chars": 23,
+      "limit": 30
+    },
+    "iap_collection_description": {
+      "text": "12 more conversations, yours for good",
+      "chars": 37,
+      "limit": 45
+    },
+    "iap_trial_name": {
+      "text": "InnerUs 7-day free trial",
+      "chars": 24,
+      "limit": 30
+    },
+    "iap_trial_description": {
+      "text": "Every conversation, free for a week",
+      "chars": 35,
+      "limit": 45
+    },
+    "play_title": {
+      "text": "InnerUs: Questions for Couples",
+      "chars": 30,
+      "limit": 30
+    },
+    "play_short_description": {
+      "text": "Illustrated ten-minute conversations for couples. No account. Fully private.",
+      "chars": 76,
+      "limit": 80
+    },
+    "play_full_description": {
+      "text": "InnerUs gives the two of you a conversation for tonight. Put the phone between you, read the question out loud and talk. A conversation takes about ten minutes, and nothing counts down.\n\nHOW IT WORKS\n• Start the conversation that is ready on Tonight, or pick one yourself.\n• Five questions build like a story, illustrated in watercolour.\n• Stuck? Open a nudge for an angle or a few examples. Or skip the question.\n• A closing question asks what you want to remember.\n• No time for a whole conversation? Ask for one quick question.\n\nWHAT YOU TALK ABOUT\n18 conversations in three themes:\n• Our story: your first date, a trip you still talk about, a hard season you got through together.\n• Us today: an ordinary Tuesday, the things that make you laugh, what money means to each of you.\n• What's next: a Saturday of your own, a dream you keep postponing, the next chapter you hope for.\n\nThe questions ask about real things: a day, a place, a habit, something one of you said. They never assume how long you have been together, whether you are married or whether you have children. There are no scores, no tests and no streaks. InnerUs is not therapy. It is a good reason to talk.\n\nKEEP WHAT MATTERS (OPTIONAL)\nSave a moment from any conversation: a typed note, or a voice recording of an answer.\n\nPRIVATE BY DESIGN\n• No account, no sign-in, no email address.\n• No analytics, no tracking, no ads.\n• Everything stays on your phone. We run no server that stores your conversations.\n• Export everything, or delete it all, whenever you want.\n\nWHAT IT COSTS\n• Six conversations are free for good, including Our first date, An ordinary Tuesday and A Saturday of our own. Quick questions are free too.\n• Want to try the rest? Start your free week with one tap. All 18 conversations open, nothing is charged and the week ends by itself.\n• Keep the other 12 with one payment of €9.99 (or the equivalent in your currency). No subscription. Nothing renews.\n• Recording, Moments and export are never behind a payment.\n\nPrivacy policy: https://innerus.app/privacy.html\nSupport: https://innerus.app/support.html",
+      "chars": 2092,
+      "limit": 4000
+    },
+    "screenshots": [
+      {
+        "n": 1,
+        "headline": "Ten minutes for the two of you",
+        "headline_chars": 30,
+        "headline_words": 7,
+        "subline": "Pick a conversation and talk. No timer, no scores, no streaks."
+      },
+      {
+        "n": 2,
+        "headline": "Questions you’ll want to answer",
+        "headline_chars": 31,
+        "headline_words": 5,
+        "subline": "Five questions per conversation, each with its own painting."
+      },
+      {
+        "n": 3,
+        "headline": "Stuck? Open a nudge.",
+        "headline_chars": 20,
+        "headline_words": 4,
+        "subline": "An optional hint helps you answer. Skip whenever you like."
+      },
+      {
+        "n": 4,
+        "headline": "Five questions, one story",
+        "headline_chars": 25,
+        "headline_words": 4,
+        "subline": "From the nerves before to the way home, each with its own painting."
+      },
+      {
+        "n": 5,
+        "headline": "18 conversations, three themes",
+        "headline_chars": 30,
+        "headline_words": 4,
+        "subline": "Our story, Us today and What’s next."
+      },
+      {
+        "n": 6,
+        "headline": "Keep what you want to remember",
+        "headline_chars": 30,
+        "headline_words": 6,
+        "subline": "Type a note or record your voice. On supported iPhones, a draft summary is made on the device."
+      },
+      {
+        "n": 7,
+        "headline": "No account. It stays on your phone.",
+        "headline_chars": 35,
+        "headline_words": 7,
+        "subline": "No sign-up, no tracking, no analytics. Optional sync with your own iCloud."
+      },
+      {
+        "n": 8,
+        "headline": "6 free. Then €9.99, once.",
+        "headline_chars": 25,
+        "headline_words": 5,
+        "subline": "Try all 18 conversations free for a week. No subscription."
+      }
+    ]
+  },
+  "nl-NL": {
+    "app_name": {
+      "text": "InnerUs: Vragen voor koppels",
+      "chars": 28,
+      "limit": 30
+    },
+    "app_name_options": [
+      {
+        "text": "InnerUs: Vragen voor koppels",
+        "chars": 28,
+        "limit": 30
+      },
+      {
+        "text": "InnerUs: Praten met je lief",
+        "chars": 27,
+        "limit": 30
+      },
+      {
+        "text": "InnerUs: Praten als koppel",
+        "chars": 26,
+        "limit": 30
+      }
+    ],
+    "subtitle": {
+      "text": "Tien minuten voor jullie twee",
+      "chars": 29,
+      "limit": 30
+    },
+    "subtitle_options": [
+      {
+        "text": "Tien minuten voor jullie twee",
+        "chars": 29,
+        "limit": 30
+      },
+      {
+        "text": "Geïllustreerde gesprekken",
+        "chars": 25,
+        "limit": 30
+      },
+      {
+        "text": "Even samen praten, vanavond",
+        "chars": 27,
+        "limit": 30
+      }
+    ],
+    "promotional_text": {
+      "text": "Achttien geïllustreerde gesprekken voor jullie twee. Geen account, alles blijft op je telefoon. Zes zijn gratis, een gratis week opent de rest, daarna eenmalig € 9,99.",
+      "chars": 167,
+      "limit": 170
+    },
+    "keywords": {
+      "text": "relatie,partner,koppel,stel,liefde,date,gesprek,gespreksstarters,diepgang,vriend,vriendin,samen",
+      "bytes": 95,
+      "limit": 100
+    },
+    "description": {
+      "text": "InnerUs geeft jullie twee een gesprek voor vanavond. Leg je telefoon tussen jullie in, lees de vraag hardop en praat. Een gesprek duurt ongeveer tien minuten, en er loopt geen klok mee.\n\nZO WERKT HET\n• Begin het gesprek dat klaarstaat onder Vanavond, of kies er zelf een.\n• Vijf vragen bouwen op als een verhaal, geïllustreerd in aquarel.\n• Even vast? Open een zetje voor een invalshoek of een paar voorbeelden. Of sla de vraag over.\n• Een slotvraag gaat over wat je wilt onthouden.\n• Geen tijd voor een heel gesprek? Vraag één snelle vraag.\n\nWAAROVER JE PRAAT\n18 gesprekken in drie thema's:\n• Ons verhaal: jullie eerste date, een reis waar jullie nog over praten, een moeilijke periode waar jullie samen doorheen kwamen.\n• Wij vandaag: een gewone dinsdag, de dingen waar jullie om lachen, wat geld voor elk van jullie betekent.\n• Wat komt er nog: een zaterdag voor jullie, een droom die jullie blijven uitstellen, het volgende hoofdstuk waar jullie op hopen.\n\nDe vragen gaan over echte dingen: een dag, een plek, een gewoonte, iets wat een van jullie zei. Ze gaan er nooit van uit hoelang jullie samen zijn, of jullie getrouwd zijn of kinderen hebben. Er zijn geen scores, geen tests en geen reeksen om vol te houden. InnerUs is geen therapie. Het is een goede reden om te praten.\n\nBEWAAR WAT TELT (OPTIONEEL)\nBewaar een moment uit elk gesprek: een getypte notitie, of een spraakopname van een antwoord. Op ondersteunde iPhones zet InnerUs een opname om in tekst en stelt het een korte samenvatting voor, volledig op je iPhone. Jij kijkt alles na voor het bewaard wordt. Op andere iPhones schrijf je de notitie gewoon zelf.\n\nPRIVÉ VAN BIJ HET BEGIN\n• Geen account, niet inloggen, geen e-mailadres.\n• Geen analytics, geen tracking, geen advertenties.\n• Alles blijft op je iPhone. Wij hebben geen server die je gesprekken bewaart.\n• Optioneel synchroniseren via je eigen privé-iCloud.\n• Vergrendel de app met Face ID.\n• Exporteer alles, of wis alles, wanneer je wilt.\n\nWAT HET KOST\n• Zes gesprekken blijven altijd gratis, waaronder Onze eerste date, Een gewone dinsdag en Een zaterdag voor ons. Snelle vragen zijn ook gratis.\n• Wil je de rest proberen? Start je gratis week met één tik. Alle 18 gesprekken gaan open, er wordt niets aangerekend en de week stopt vanzelf.\n• Hou de andere 12 met één betaling van € 9,99 (of het bedrag in jouw munteenheid). Geen abonnement. Er wordt niets verlengd.\n• Opnemen, Momenten, iCloud-synchronisatie en exporteren zitten nooit achter een betaling.\n\nPrivacybeleid: https://innerus.app/privacy.html#nl\nSupport: https://innerus.app/support.html#nl",
+      "chars": 2582,
+      "limit": 4000
+    },
+    "whats_new": {
+      "text": "InnerUs 2.0 is helemaal opnieuw gebouwd.\n\n• Geen account meer. Alles staat nu op je iPhone, met optioneel synchroniseren via je eigen iCloud.\n• 18 gesprekken in drie thema's, met nieuwe aquarellen.\n• Het abonnement verdwijnt. Zes gesprekken blijven gratis, een gratis week opent de rest en met één betaling van € 9,99 hou je ze voor altijd.\n\nBetaalde je eerder voor een abonnement? Dank je wel. De volledige collectie is nu voor altijd van jou, zonder extra kosten, op elke iPhone met hetzelfde Apple-account. Het abonnement heb je niet meer nodig: zeg het op via Instellingen › je naam › Abonnementen.\n\nJe voortgang en de notities uit de vorige versie stonden in je online account. Die gaan niet mee naar deze versie.\n\nWil je een kopie van de notities die je in de vorige versie schreef? Mail naar info@innerus.app en we sturen ze je door.",
+      "chars": 840,
+      "limit": 4000
+    },
+    "iap_collection_name": {
+      "text": "InnerUs volledige collectie",
+      "chars": 27,
+      "limit": 30
+    },
+    "iap_collection_description": {
+      "text": "12 extra gesprekken, voor altijd van jou",
+      "chars": 40,
+      "limit": 45
+    },
+    "iap_trial_name": {
+      "text": "InnerUs 7 dagen gratis",
+      "chars": 22,
+      "limit": 30
+    },
+    "iap_trial_description": {
+      "text": "Elk gesprek, een week gratis",
+      "chars": 28,
+      "limit": 45
+    },
+    "play_title": {
+      "text": "InnerUs: Vragen voor koppels",
+      "chars": 28,
+      "limit": 30
+    },
+    "play_short_description": {
+      "text": "Geïllustreerde gesprekken van tien minuten voor koppels. Geen account. Privé.",
+      "chars": 77,
+      "limit": 80
+    },
+    "play_full_description": {
+      "text": "InnerUs geeft jullie twee een gesprek voor vanavond. Leg je telefoon tussen jullie in, lees de vraag hardop en praat. Een gesprek duurt ongeveer tien minuten, en er loopt geen klok mee.\n\nZO WERKT HET\n• Begin het gesprek dat klaarstaat onder Vanavond, of kies er zelf een.\n• Vijf vragen bouwen op als een verhaal, geïllustreerd in aquarel.\n• Even vast? Open een zetje voor een invalshoek of een paar voorbeelden. Of sla de vraag over.\n• Een slotvraag gaat over wat je wilt onthouden.\n• Geen tijd voor een heel gesprek? Vraag één snelle vraag.\n\nWAAROVER JE PRAAT\n18 gesprekken in drie thema's:\n• Ons verhaal: jullie eerste date, een reis waar jullie nog over praten, een moeilijke periode waar jullie samen doorheen kwamen.\n• Wij vandaag: een gewone dinsdag, de dingen waar jullie om lachen, wat geld voor elk van jullie betekent.\n• Wat komt er nog: een zaterdag voor jullie, een droom die jullie blijven uitstellen, het volgende hoofdstuk waar jullie op hopen.\n\nDe vragen gaan over echte dingen: een dag, een plek, een gewoonte, iets wat een van jullie zei. Ze gaan er nooit van uit hoelang jullie samen zijn, of jullie getrouwd zijn of kinderen hebben. Er zijn geen scores, geen tests en geen reeksen om vol te houden. InnerUs is geen therapie. Het is een goede reden om te praten.\n\nBEWAAR WAT TELT (OPTIONEEL)\nBewaar een moment uit elk gesprek: een getypte notitie, of een spraakopname van een antwoord.\n\nPRIVÉ VAN BIJ HET BEGIN\n• Geen account, niet inloggen, geen e-mailadres.\n• Geen analytics, geen tracking, geen advertenties.\n• Alles blijft op je telefoon. Wij hebben geen server die je gesprekken bewaart.\n• Exporteer alles, of wis alles, wanneer je wilt.\n\nWAT HET KOST\n• Zes gesprekken blijven altijd gratis, waaronder Onze eerste date, Een gewone dinsdag en Een zaterdag voor ons. Snelle vragen zijn ook gratis.\n• Wil je de rest proberen? Start je gratis week met één tik. Alle 18 gesprekken gaan open, er wordt niets aangerekend en de week stopt vanzelf.\n• Hou de andere 12 met één betaling van € 9,99 (of het bedrag in jouw munteenheid). Geen abonnement. Er wordt niets verlengd.\n• Opnemen, Momenten en exporteren zitten nooit achter een betaling.\n\nPrivacybeleid: https://innerus.app/privacy.html#nl\nSupport: https://innerus.app/support.html#nl",
+      "chars": 2254,
+      "limit": 4000
+    },
+    "screenshots": [
+      {
+        "n": 1,
+        "headline": "Tien minuten voor jullie twee",
+        "headline_chars": 29,
+        "headline_words": 5,
+        "subline": "Kies een gesprek en praat. Geen timer, geen scores, niets om bij te houden."
+      },
+      {
+        "n": 2,
+        "headline": "Vragen die je echt wilt beantwoorden",
+        "headline_chars": 36,
+        "headline_words": 6,
+        "subline": "Vijf vragen per gesprek, elk met een eigen schilderij."
+      },
+      {
+        "n": 3,
+        "headline": "Even vast? Open een zetje.",
+        "headline_chars": 26,
+        "headline_words": 5,
+        "subline": "Een optionele hint helpt je op weg. Overslaan mag altijd."
+      },
+      {
+        "n": 4,
+        "headline": "Vijf vragen, één verhaal",
+        "headline_chars": 24,
+        "headline_words": 4,
+        "subline": "Van de zenuwen vooraf tot de weg naar huis, elk met een eigen schilderij."
+      },
+      {
+        "n": 5,
+        "headline": "18 gesprekken, drie thema’s",
+        "headline_chars": 27,
+        "headline_words": 4,
+        "subline": "Ons verhaal, Wij vandaag en Wat komt er nog."
+      },
+      {
+        "n": 6,
+        "headline": "Bewaar wat je wilt onthouden",
+        "headline_chars": 28,
+        "headline_words": 5,
+        "subline": "Typ een notitie of spreek ze in. Op ondersteunde iPhones maakt je iPhone zelf een eerste samenvatting."
+      },
+      {
+        "n": 7,
+        "headline": "Geen account. Alles blijft bij jou.",
+        "headline_chars": 35,
+        "headline_words": 6,
+        "subline": "Geen registratie, geen tracking, geen analytics. Optioneel synchroniseren met je eigen iCloud."
+      },
+      {
+        "n": 8,
+        "headline": "6 gratis. Daarna eenmalig €9,99.",
+        "headline_chars": 32,
+        "headline_words": 5,
+        "subline": "Probeer alle 18 gesprekken een week gratis. Geen abonnement."
+      }
+    ]
+  },
+  "note": "Use nl-NL for both Netherlands and Belgium storefronts (App Store Connect has one Dutch locale). Counts are characters (keywords: UTF-8 bytes)."
+}

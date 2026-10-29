@@ -1,0 +1,8 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import content from "../content/privacy.html?raw";
+import "../styles/privacy.css";
+---
+<BaseLayout title="Privacy policy — InnerUs" description="How InnerUs handles privacy, iCloud, support and data from the previous version." path="/privacy/">
+  <Fragment set:html={content} />
+</BaseLayout>

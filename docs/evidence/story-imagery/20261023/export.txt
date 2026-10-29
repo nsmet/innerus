@@ -1,0 +1,20 @@
+InnerUs editorial imagery export — 23 October 2026
+S01: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S02: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S03: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S04: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S05: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S06: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S07: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S08: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S09: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S10: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S11: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S12: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S13: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S14: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+S15: six 570×380 JPEGs; exact editorial question/chapter/closing mapping; master and frame SHA-256 retained.
+PASS: 90 unique chapter/closing frames; 7.80 MiB total.
+PASS: all copy mapped from docs/STORY_LIBRARY_DRAFT.md; no upscaling.
+PASS: local review HTML loads only local images; captions are real selectable text.
+Scope: static assets and local review; no mobile build/device, runtime integration, independent-layer or accessibility evidence.

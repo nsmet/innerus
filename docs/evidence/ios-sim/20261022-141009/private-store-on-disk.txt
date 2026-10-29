@@ -1,0 +1,17 @@
+Documents/ (expo-sqlite default, backed up):
+total 0
+drwxr-xr-x  2 nsmet  staff   64 Oct 22 13:41 .
+drwxr-xr-x@ 7 nsmet  staff  224 Oct 22 13:41 ..
+ls: /Users/nsmet/Library/Developer/CoreSimulator/Devices/0F631C32-7A41-4214-A685-9EC00D8B0189/data/Containers/Data/Application/EAB080B5-138E-4CED-8EA4-45793714124F/Documents/SQLite: No such file or directory
+
+Application Support/InnerUsPrivate:
+total 336
+drwxr-xr-x@ 6 nsmet  staff     192 Oct 22 14:13 .
+drwxr-xr-x  4 nsmet  staff     128 Oct 22 14:13 ..
+-rw-r--r--  1 nsmet  staff    4096 Oct 22 14:13 innerus-private.db
+-rw-r--r--  1 nsmet  staff   32768 Oct 22 14:13 innerus-private.db-shm
+-rw-r--r--  1 nsmet  staff  127752 Oct 22 14:13 innerus-private.db-wal
+-rw-r--r--@ 1 nsmet  staff      26 Oct 22 14:13 probe-fictional-attachment.txt
+
+Extended attributes (com.apple.metadata:com_apple_backup_excludeItem = excluded from backup):
+com.apple.metadata:com_apple_backup_excludeItem: com.apple.MobileBackup

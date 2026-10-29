@@ -1,0 +1,9 @@
+{
+  "id": "S04",
+  "tool": "Built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit ONLY the middle-right panel (panel 4) of this two-column by three-row watercolor sheet. The question is 'What does that little habit mean to you?' The shared habit is the pair's small secret fist-bump greeting. Replace the generic hand on the woman's shoulder with a CLEAR light fist bump between the two adults near their knees. Show both seated after a full day; the tired adult's shoulders visibly relax and their face has a small relieved smile, conveying the comfort of that familiar ritual. Use a medium candid front/side view so the fist-bump and the softening posture are both readable. Keep both adult characters, their clothes, skin tones and ordinary room. Preserve the other FIVE panels exactly, including all poses, hands, backgrounds, watercolor style, colors, ivory edges, dimensions and grid layout. No other changes, no captions, words, cups or added decorative props.",
+  "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-8b30c55b-b758-4321-9fcf-3293d3f504a6.png",
+  "target": "artwork/storyboards/editorial-v2/masters/S04-before-meaning-edit.png",
+  "master": "artwork/storyboards/editorial-v2/masters/S04.png",
+  "reason": "Keep the meaning image tied to the specific shared greeting rather than a generic shoulder touch."
+}

@@ -1,0 +1,43 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  lang?: 'en' | 'nl';
+  bilingualHome?: boolean;
+  noindex?: boolean;
+}
+const { title, description, path, lang = 'en', bilingualHome = false, noindex = false } = Astro.props;
+const canonical = new URL(path, Astro.site);
+const image = new URL('/assets/3e86c8b6-194d-416c-a178-d98bdbfd6205.jpg', Astro.site);
+const website = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'InnerUs', url: new URL('/', Astro.site).href };
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FAF6EF" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
+    {bilingualHome && <>
+      <link rel="alternate" hreflang="en" href={new URL('/', Astro.site)} />
+      <link rel="alternate" hreflang="nl" href={new URL('/nl/', Astro.site)} />
+      <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site)} />
+    </>}
+    <link rel="icon" href="/assets/favicon.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="InnerUs" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:alt" content={lang === 'nl' ? 'Aquarel van twee kopjes op een tafel bij het raam' : 'Watercolour of two cups on a table by a window'} />
+    <meta property="og:locale" content={lang === 'nl' ? 'nl_NL' : 'en_US'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    {path === '/' && <script type="application/ld+json" set:html={JSON.stringify(website)} />}
+  </head>
+  <body><slot /></body>
+</html>

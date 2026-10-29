@@ -1,0 +1,8 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import content from "../content/support.html?raw";
+import "../styles/support.css";
+---
+<BaseLayout title="Support — InnerUs" description="Help with InnerUs: the free week, the one-time purchase, moving from the previous version, iCloud and your moments." path="/support/">
+  <Fragment set:html={content} />
+</BaseLayout>

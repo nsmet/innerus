@@ -1,0 +1,106 @@
+{
+  "identifier" : "9B1E4C27",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "6740019901",
+      "localizations" : [
+        {
+          "description" : "Keep all 15 conversations with one payment. No subscription.",
+          "displayName" : "The full InnerUs collection",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Hou alle 15 gesprekken met één betaling. Geen abonnement.",
+          "displayName" : "De volledige InnerUs-collectie",
+          "locale" : "nl"
+        }
+      ],
+      "productID" : "local.innerus.development.collection",
+      "referenceName" : "InnerUs collection (local development)",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.0",
+      "familyShareable" : false,
+      "internalID" : "6740019902",
+      "localizations" : [
+        {
+          "description" : "All 15 conversations free for 7 days. Nothing is charged and nothing renews.",
+          "displayName" : "InnerUs 7-day Trial",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Alle 15 gesprekken 7 dagen gratis. Er wordt niets aangerekend en niets verlengd.",
+          "displayName" : "InnerUs 7-day Trial",
+          "locale" : "nl"
+        }
+      ],
+      "productID" : "local.innerus.development.trial7",
+      "referenceName" : "InnerUs 7-day Trial (local development)",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "nl_BE",
+    "_storefront" : "BEL",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

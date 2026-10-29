@@ -1,0 +1,17 @@
+InnerUs iOS simulator verification 20261022-141009
+xcode                              Xcode 27.1
+npm ci                             ok
+npm run check                      ok
+38 passed, 0 failed (static checks only; not a mobile build)
+simulator                          iPhone 16 Pro / iOS-18-0 (0F631C32-7A41-4214-A685-9EC00D8B0189)
+expo prebuild (ios)                ok
+local module linked                yes (InnerUsPlatform in Podfile.lock)
+xcodebuild                         BUILD SUCCEEDED in 114s
+install                            ok
+metro (probe)                      running
+probe-launch1                      ALL STEPS OK · persisted from previous launch: false
+probe-launch2                      ALL STEPS OK · persisted from previous launch: true
+backup-exclusion xattr             present on InnerUsPrivate
+Documents/SQLite                   absent (good)
+metro (app)                        running
+evidence folder                    docs/evidence/ios-sim/20261022-141009

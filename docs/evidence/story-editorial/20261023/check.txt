@@ -1,0 +1,7 @@
+English story proposal 0.1 — structural and length check, 23 October 2026
+PASS: 15 proposal sections, S01–S15, in order.
+PASS: each has five numbered main questions, five optional nudges and one closing invitation.
+PASS: 75 unique main questions, each with exactly one question mark at its end.
+PASS: main-question length 8–16 words; mean 11.3. Target: at most 20 words.
+Scope: checks authored Markdown only. No reading-grade, reader-testing, clinical-outcome, app-integration or mobile-runtime claim.
+No application tests/builds were run for this documentation-only change.

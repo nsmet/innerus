@@ -1,0 +1,5 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": { "modules": ["InnerUsPlatformModule", "InnerUsLocalAIModule", "InnerUsSyncModule"] },
+  "android": { "modules": ["expo.modules.innerusplatform.InnerUsPlatformModule"] }
+}

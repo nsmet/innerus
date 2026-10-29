@@ -1,0 +1,181 @@
+import type { Localized } from './types';
+
+const pair = (en: string, nl: string): Localized => ({ en, nl });
+type StoryPrompt = { chapter: Localized; text: Localized; nudge: Localized };
+const beat = (chapter: string, hoofdstuk: string, question: string, vraag: string, nudge: string, zetje: string): StoryPrompt => ({
+  chapter: pair(chapter, hoofdstuk), text: pair(question, vraag), nudge: pair(nudge, zetje),
+});
+type StoryRevision = { about: Localized; prompts: readonly StoryPrompt[]; closing: Localized };
+
+/**
+ * Owner-directed editorial revision, 23 October 2026. One continuous subject per story.
+ * Every question remains usable after Skip; no bridge assumes an answer or agreement.
+ * Existing prompt IDs, access and Quick eligibility are inherited from the original catalogue.
+ */
+export const storyRevisions: Readonly<Record<string, StoryRevision>> = {
+  A01: {
+    about: pair('From the butterflies beforehand to the goodbye: walk through our first date, one little scene at a time.', 'Van de kriebels vooraf tot het afscheid: beleef onze eerste date opnieuw, één klein tafereel tegelijk.'),
+    prompts: [
+      beat('Before the beginning', 'Voor het begin', 'How were you feeling in the hours before our first date?', 'Hoe voelde je je in de uren voor onze eerste date?', 'Excited, nervous, curious — or something you kept to yourself?', 'Enthousiast, zenuwachtig, nieuwsgierig — of iets wat je voor jezelf hield?'),
+      beat('Getting ready', 'Je klaarmaken', 'As you got ready for our first date, what do you remember choosing to wear?', 'Wat weet je nog van de kleren die je koos voor onze eerste date?', 'An outfit, a favourite detail, or the last thing you changed before leaving. It is fine if the memory is hazy.', 'Een outfit, een lievelingsdetail of het laatste wat je veranderde voor je vertrok. Het geeft niet als je het niet precies meer weet.'),
+      beat('The first glimpse', 'De eerste blik', 'When we first saw each other on that date, what did you notice about me?', 'Wat viel je aan mij op toen we elkaar op die date voor het eerst zagen?', 'A smile, a voice, the way I stood — what caught your attention?', 'Een glimlach, een stem, hoe ik erbij stond — wat trok je aandacht?'),
+      beat('Somewhere in the middle', 'Ergens halverwege', 'As our first date unfolded, which little moment stayed with you?', 'Welk klein moment is je bijgebleven van hoe onze eerste date verliep?', 'Something we said, a silence, a small mishap. Tell it as you remember it; our versions can differ.', 'Iets wat we zeiden, een stilte, een klein ongelukje. Vertel het zoals jij het herinnert; onze versies mogen verschillen.'),
+      beat('The goodbye', 'Het afscheid', 'When it was time to say goodbye after our first date, what were you hoping would happen next?', 'Waar hoopte je op toen we na onze eerste date afscheid namen?', 'Another date, a message, a little time to take it all in — what do you remember?', 'Nog een date, een berichtje, even tijd om alles te laten bezinken — wat weet je nog?'),
+    ],
+    closing: pair('Which little scene from our beginning would you like to keep?', 'Welk klein tafereel uit ons begin wil je bewaren?'),
+  },
+  A02: {
+    about: pair('Choose a place, arrive there again in your mind, and follow one afternoon all the way home.', 'Kies een plek, kom er in gedachten opnieuw aan en volg een middag tot je weer thuis bent.'),
+    prompts: [
+      beat('Somewhere we remember', 'Een plek die bijblijft', 'Which place would you take us back to for one afternoon?', 'Naar welke plek zou je ons voor een middag terug meenemen?', 'A familiar corner nearby counts just as much as somewhere far away.', 'Een vertrouwd hoekje dichtbij telt net zo goed als een plek ver weg.'),
+      beat('Arriving again', 'Opnieuw aankomen', 'Picture us arriving back at that place. What would you notice first?', 'Stel je voor dat we weer op die plek aankomen. Wat zou je als eerste opvallen?', 'The light, a sound, a smell, or the way the air felt.', 'Het licht, een geluid, een geur of hoe de lucht aanvoelde.'),
+      beat('An afternoon there', 'Een middag daar', 'What little moment together would you want to relive in that place?', 'Welk klein moment samen zou je op die plek opnieuw willen beleven?', 'Walk me through it, from where we were sitting or standing.', 'Neem me erin mee, vanaf waar we zaten of stonden.'),
+      beat('Through your eyes', 'Door jouw ogen', 'What did that place give you that I might not have noticed at the time?', 'Wat gaf die plek jou dat ik toen misschien niet opmerkte?', 'Perhaps room to breathe, a little adventure, or simply time together.', 'Misschien ademruimte, een beetje avontuur of gewoon tijd samen.'),
+      beat('Coming home', 'Weer naar huis', 'If we came home from that afternoon, what feeling would you want to bring with us?', 'Als we van die middag thuiskwamen, welk gevoel zou je dan willen meenemen?', 'Is there a small way to find some of that here, too?', 'Is er een kleine manier om daar ook hier iets van te vinden?'),
+    ],
+    closing: pair('What would you put on a little postcard from that place?', 'Wat zou je op een kaartje van die plek zetten?'),
+  },
+  A03: {
+    about: pair('Open the door to our first shared home, settle into an ordinary day, and notice what still feels like us.', 'Open de deur van ons eerste huis samen, beleef een gewone dag en ontdek wat nog steeds bij ons hoort.'),
+    prompts: [
+      beat('The first key', 'De eerste sleutel', 'Picture opening the door to our first shared home. What do you see?', 'Stel je voor dat je de deur van ons eerste huis samen opent. Wat zie je?', 'A room, a half-unpacked box, or something we put down first.', 'Een kamer, een half uitgepakte doos of iets wat we als eerste neerzetten.'),
+      beat('Making it ours', 'Het van ons maken', 'What was one of the first little things that made that home feel like ours?', 'Welk klein ding maakte dat huis voor het eerst echt van ons?', 'An object, a corner we arranged, or something we did there together.', 'Een voorwerp, een hoekje dat we inrichtten of iets wat we daar samen deden.'),
+      beat('An ordinary day inside', 'Een gewone dag binnen', 'What small routine brings an ordinary day in that home back to you?', 'Welke kleine gewoonte brengt een gewone dag in dat huis bij je terug?', 'Tell me what would usually happen, even if it seems unremarkable.', 'Vertel wat er meestal gebeurde, ook als het heel gewoon lijkt.'),
+      beat('Your favourite corner', 'Jouw favoriete hoekje', 'Where in that home did you feel most at ease, and what made it that way?', 'Waar in dat huis voelde jij je het meest op je gemak, en waardoor kwam dat?', 'I might have seen the same room quite differently.', 'Misschien zag ik dezelfde kamer heel anders.'),
+      beat('What came with us', 'Wat met ons meeging', 'What from that first home would you like to have with us now?', 'Wat uit dat eerste huis zou je nu graag bij ons hebben?', 'It can be an object, a habit, or a feeling rather than the home itself.', 'Het mag een voorwerp, een gewoonte of een gevoel zijn, in plaats van het huis zelf.'),
+    ],
+    closing: pair('Which little piece of that home would you like to remember?', 'Welk klein stukje van dat huis wil je onthouden?'),
+  },
+  A04: {
+    about: pair('Set off again, take the unexpected turn, pause along the way and bring a little of the trip home.', 'Vertrek opnieuw, neem de onverwachte afslag, pauzeer onderweg en neem iets van de reis mee naar huis.'),
+    prompts: [
+      beat('Setting off', 'We vertrekken', 'Which trip or day away would you like to set off on again tonight?', 'Voor welke reis of welk dagje weg zou je vanavond opnieuw willen vertrekken?', 'Where were we heading, and what was the mood as we left?', 'Waar gingen we heen, en hoe was de sfeer bij het vertrek?'),
+      beat('The unexpected turn', 'De onverwachte afslag', 'On that trip, when did the day take a turn we had not planned?', 'Wanneer liep die reis anders dan we hadden gepland?', 'A detour, a surprise, or something that went a little wrong.', 'Een omweg, een verrassing of iets wat een beetje misliep.'),
+      beat('A pause along the way', 'Een pauze onderweg', 'Where would you pause that trip to spend a little longer together?', 'Waar zou je die reis even stilzetten om samen wat langer te blijven?', 'A meal, a view, a wait somewhere — what was happening between us?', 'Een maaltijd, een uitzicht, ergens wachten — wat gebeurde er tussen ons?'),
+      beat('Your little highlight', 'Jouw kleine hoogtepunt', 'Which moment from that journey stayed with you that I might have passed over?', 'Welk moment van die reis bleef jou bij waar ik misschien aan voorbijging?', 'Tell me the part of the story I may not know.', 'Vertel me het stukje van het verhaal dat ik misschien nog niet ken.'),
+      beat('The journey home', 'De weg naar huis', 'Coming home from that trip, what did you wish we could do again?', 'Wat had je bij thuiskomst van die reis graag nog eens willen doen?', 'Think of how we spent our time, as well as where we went.', 'Denk ook aan hoe we onze tijd doorbrachten, niet alleen aan waar we waren.'),
+    ],
+    closing: pair('What little scene belongs on a postcard from our adventure?', 'Welk klein tafereel hoort op een kaartje van ons avontuur?'),
+  },
+  A05: {
+    about: pair('Find one little ritual and follow its story: the first time, the familiar feeling and a place for it now.', 'Kies één klein ritueel en volg het verhaal: de eerste keer, het vertrouwde gevoel en een plek ervoor nu.'),
+    prompts: [
+      beat('A little thing of ours', 'Iets kleins van ons', 'What small thing we do feels especially like us?', 'Welk klein ding dat we doen voelt echt als iets van ons?', 'A greeting, a meal, a phrase or a wonderfully ordinary habit.', 'Een begroeting, een maaltijd, een uitspraak of een heerlijk gewone gewoonte.'),
+      beat('The very first time', 'De allereerste keer', 'Can you remember when that little ritual first began?', 'Weet je nog wanneer dat kleine ritueel begon?', 'If the beginning is hazy, tell me the earliest version you remember.', 'Als het begin vaag is, vertel dan de vroegste versie die je je herinnert.'),
+      beat('Becoming familiar', 'Het wordt vertrouwd', 'When did that ritual start feeling like something that belonged to us?', 'Wanneer begon dat ritueel te voelen als iets wat van ons was?', 'Was there a time you caught yourself expecting it?', 'Was er een moment waarop je merkte dat je erop rekende?'),
+      beat('When it is missing', 'Als het er even niet is', 'What would you miss about that ritual if we stopped doing it?', 'Wat zou je aan dat ritueel missen als we ermee stopten?', 'Perhaps the comfort, the silliness, or the little pause together.', 'Misschien de rust, het gekke ervan of dat kleine moment samen.'),
+      beat('A place for it now', 'Een plek ervoor nu', 'How would you like to make room for that ritual in our life now?', 'Hoe zou je dat ritueel nu ruimte willen geven in ons leven?', 'Keep it as it is, bring it back, or let it change a little. No new rule is needed.', 'Het zo houden, terugbrengen of een beetje laten veranderen. Er hoeft geen nieuwe regel bij.'),
+    ],
+    closing: pair('What would you like to remember about this little thing of ours?', 'Wat wil je onthouden over dit kleine ding van ons?'),
+  },
+  B01: {
+    about: pair('Walk through an ordinary day together, from one small good moment to an easier tomorrow.', 'Loop samen door een gewone dag, van een klein fijn moment naar een iets fijnere morgen.'),
+    prompts: [
+      beat('An ordinary day', 'Een gewone dag', 'Think of an ordinary day we shared recently. What little scene comes to mind first?', 'Denk aan een gewone dag die we onlangs deelden. Welk klein tafereel zie je als eerste voor je?', 'Nothing remarkable needs to have happened. An everyday moment is enough.', 'Er hoeft niets bijzonders te zijn gebeurd. Een alledaags moment is genoeg.'),
+      beat('A moment together', 'Een moment samen', 'Where in an ordinary day do you most enjoy a small moment with me?', 'Op welk moment van een gewone dag geniet je het meest van even samen zijn?', 'A greeting, a short conversation, or a familiar little pause.', 'Een begroeting, een kort gesprek of een vertrouwd klein rustpunt.'),
+      beat('The little gesture', 'Het kleine gebaar', 'Thinking back over that ordinary day, what did I do that made it a little better?', 'Wat deed ik op die gewone dag dat hem een beetje fijner maakte?', 'Something I may not have realised mattered.', 'Iets waarvan ik misschien niet wist dat het iets betekende.'),
+      beat('The tiring part', 'Het vermoeiende stukje', 'Which part of that sort of day tends to feel hardest for us?', 'Welk stukje van zo een dag is voor ons meestal het lastigst?', 'We can simply understand it tonight; we do not have to solve it.', 'We mogen het vanavond gewoon begrijpen; we hoeven het niet op te lossen.'),
+      beat('A little of tomorrow', 'Een stukje van morgen', 'What small thing could make an ordinary day together more enjoyable this week?', 'Welk klein ding kan een gewone dag samen deze week wat fijner maken?', 'Choose something we could enjoy once, without making another obligation.', 'Kies iets waarvan we een keer kunnen genieten, zonder een nieuwe verplichting.'),
+    ],
+    closing: pair('Which little part of our everyday life would you like to keep?', 'Welk klein stukje van ons dagelijks leven wil je bewaren?'),
+  },
+  B02: {
+    about: pair('Come to the end of a long day, notice the first exhale, and find an evening with room for both of us.', 'Kom aan het einde van een lange dag, voel de eerste ontspanning en zoek een avond met ruimte voor ons allebei.'),
+    prompts: [
+      beat('The day is done', 'De dag zit erop', 'Think of the end of a long day. What is the first sign that you can finally let go?', 'Denk aan het einde van een lange dag. Waaraan merk je als eerste dat je kunt loslaten?', 'Putting something down, changing clothes, a familiar sound or a quiet minute.', 'Iets neerleggen, andere kleren aantrekken, een vertrouwd geluid of een stille minuut.'),
+      beat('The first exhale', 'De eerste ontspanning', 'In those first minutes after a long day, what helps you begin to unwind?', 'Wat helpt je in die eerste minuten na een lange dag om te ontspannen?', 'Walk me through what you would reach for or do first.', 'Neem me mee in wat je als eerste zou pakken of doen.'),
+      beat('Quiet or company', 'Rust of gezelschap', 'As you settle into the evening, how would you like to ask for quiet or company?', 'Hoe zou je aan het begin van de avond willen aangeven dat je rust of gezelschap nodig hebt?', 'A simple sentence is enough; neither of us has to guess.', 'Een eenvoudige zin is genoeg; geen van ons hoeft te raden.'),
+      beat('Two different rhythms', 'Twee verschillende ritmes', 'Where do our ways of unwinding fit together, and where do we need different things?', 'Waar passen onze manieren van ontspannen bij elkaar, en waar hebben we iets anders nodig?', 'There can be room for both, without either way being the right one.', 'Er mag ruimte zijn voor beide, zonder dat één manier de juiste is.'),
+      beat('An easier evening', 'Een fijnere avond', 'What little gesture from me could make your next evening easier?', 'Welk klein gebaar van mij kan je volgende avond wat fijner maken?', 'Something practical, a little company, or permission to have some space.', 'Iets praktisch, wat gezelschap of de ruimte om even alleen te zijn.'),
+    ],
+    closing: pair('What would you like me to remember when your day is done?', 'Wat wil je dat ik onthoud voor als jouw dag erop zit?'),
+  },
+  B03: {
+    about: pair('Return to one small gesture, see why it mattered, and discover how each of us likes to be noticed.', 'Ga terug naar één klein gebaar, ontdek waarom het telde en hoe ieder van ons graag gezien wordt.'),
+    prompts: [
+      beat('A small moment', 'Een klein moment', 'When did you recently feel appreciated by me, even in a very small way?', 'Wanneer voelde je je onlangs door mij gewaardeerd, al was het om iets heel kleins?', 'If nothing comes to mind, describe a gesture you would have welcomed.', 'Als je niets te binnen schiet, beschrijf dan een gebaar dat je fijn had gevonden.'),
+      beat('Back in the scene', 'Terug in dat tafereel', 'Picture that gesture of appreciation. What would I have seen happening around us?', 'Stel je dat gebaar van waardering voor. Wat zou ik om ons heen hebben zien gebeuren?', 'Bring me into the moment, whether it happened or is something you wish for.', 'Neem me mee in het moment, of het nu gebeurde of iets is waar je naar verlangt.'),
+      beat('Why it mattered', 'Waarom het telde', 'What about that gesture would make you feel seen?', 'Waardoor zou je je door dat gebaar gezien voelen?', 'The words, the timing, the effort, or the fact that I noticed.', 'De woorden, de timing, de moeite of het feit dat ik het opmerkte.'),
+      beat('The way you notice', 'Hoe jij het laat merken', 'How do you tend to show appreciation for me in little everyday ways?', 'Hoe laat jij mij meestal in kleine alledaagse dingen je waardering merken?', 'There might be something you do that I have not recognised yet.', 'Misschien doe je iets wat ik nog niet zo had herkend.'),
+      beat('A gesture to carry on', 'Een gebaar om mee te nemen', 'What is one small way you would like us to show appreciation more often?', 'Op welke kleine manier zou je willen dat we onze waardering vaker laten merken?', 'An invitation, rather than a test for either of us.', 'Een uitnodiging, geen test voor een van ons.'),
+    ],
+    closing: pair('Is there a little gesture from this conversation you would like to remember?', 'Is er een klein gebaar uit dit gesprek dat je wilt onthouden?'),
+  },
+  B04: {
+    about: pair('Go back to a shared laugh, retell how it happened, and leave a little room for that side of us.', 'Ga terug naar een lach samen, vertel hoe die ontstond en maak wat ruimte voor die kant van ons.'),
+    prompts: [
+      beat('A laugh comes back', 'Een lach komt terug', 'What is a moment when we laughed together that still makes you smile?', 'Aan welk moment waarop we samen lachten moet je nog steeds glimlachen?', 'Something very silly or very small is welcome.', 'Iets heel onnozels of heel kleins is welkom.'),
+      beat('Just before it happened', 'Vlak ervoor', 'Take me back to just before that laugh. What was happening?', 'Neem me mee naar vlak voor die lach. Wat gebeurde er?', 'Set the scene, then tell me the bit that set us off.', 'Schets het tafereel en vertel dan waardoor we begonnen te lachen.'),
+      beat('The bit only we get', 'Wat alleen wij snappen', 'What about that moment was especially funny to us?', 'Wat aan dat moment was juist voor ons zo grappig?', 'A familiar habit, an unexpected detail, or a joke with a history.', 'Een vertrouwd trekje, een onverwacht detail of een grapje met een voorgeschiedenis.'),
+      beat('Room to be playful', 'Ruimte om speels te zijn', 'What made it easy for us to be that playful together?', 'Waardoor konden we toen zo makkelijk samen speels zijn?', 'Think of the setting or the pace, without needing to recreate the joke.', 'Denk aan de omgeving of het tempo, zonder de grap te moeten overdoen.'),
+      beat('Another little opening', 'Nog een kleine opening', 'What easy thing could give that playful side of us some room again?', 'Welk eenvoudig ding kan die speelse kant van ons weer wat ruimte geven?', 'We can invite a little fun without having to make each other laugh.', 'We mogen wat plezier uitnodigen zonder elkaar aan het lachen te moeten maken.'),
+    ],
+    closing: pair('Which little part of that story would you like to keep?', 'Welk klein stukje van dat verhaal wil je bewaren?'),
+  },
+  B05: {
+    about: pair('Revisit a moment when we had time, find what made it feel different, and make a small opening for another.', 'Beleef een moment waarop we tijd hadden opnieuw, ontdek wat het anders maakte en zoek ruimte voor nog zo een moment.'),
+    prompts: [
+      beat('When there was time', 'Toen er tijd was', 'When did you last feel we really had time for each other?', 'Wanneer voelde je voor het laatst dat we echt tijd voor elkaar hadden?', 'A few minutes can count. Where were we?', 'Een paar minuten kunnen tellen. Waar waren we?'),
+      beat('Inside that moment', 'In dat moment', 'In that time together, what made you feel I was really there with you?', 'Waardoor voelde je in die tijd samen dat ik er echt voor je was?', 'Something we did, put aside, or paid attention to.', 'Iets wat we deden, opzijzetten of aandacht gaven.'),
+      beat('When life comes back in', 'Als het leven weer binnenkomt', 'What tends to interrupt that kind of time together lately?', 'Wat onderbreekt de laatste tijd vaak dat soort tijd samen?', 'Describe the situation; we do not need to put the blame anywhere.', 'Beschrijf de situatie; we hoeven niemand de schuld te geven.'),
+      beat('The time you miss', 'De tijd die je mist', 'If we found another little pocket of time, how would you like to spend it with me?', 'Als we weer even tijd vonden, hoe zou jij die met mij willen doorbrengen?', 'Quiet, active, planned or spontaneous — what would feel good to you?', 'Rustig, actief, gepland of spontaan — wat zou jij fijn vinden?'),
+      beat('A small opening', 'Een kleine opening', 'Where might there be room for a little of that kind of time?', 'Waar is misschien ruimte voor een beetje van dat soort tijd?', 'An invitation is enough. We do not have to make a new rule tonight.', 'Een uitnodiging is genoeg. We hoeven vanavond geen nieuwe regel te maken.'),
+    ],
+    closing: pair('Would you like to keep a small invitation for time together?', 'Wil je een kleine uitnodiging voor tijd samen bewaren?'),
+  },
+  C01: {
+    about: pair('Imagine one free Saturday, from the first slow hour to the last cup, then choose a little piece to try.', 'Stel je één vrije zaterdag voor, van het eerste rustige uur tot het laatste kopje, en kies een stukje om te proberen.'),
+    prompts: [
+      beat('The morning is ours', 'De ochtend is van ons', 'Imagine a Saturday with no obligations. How would you like us to begin?', 'Stel je een zaterdag zonder verplichtingen voor. Hoe zou je willen dat we beginnen?', 'A slow start at home counts just as much as heading out.', 'Een rustige start thuis telt net zo goed als eropuit trekken.'),
+      beat('The day opens up', 'De dag ligt open', 'After that first slow hour, where would you like our Saturday to take us?', 'Waar zou je na dat eerste rustige uur op onze zaterdag naartoe willen?', 'Somewhere familiar, somewhere new, or simply a little further into the day.', 'Ergens vertrouwd, ergens nieuw of gewoon een stukje verder de dag in.'),
+      beat('An unexpected little turn', 'Een kleine onverwachte wending', 'What little detour could make our imagined Saturday feel different from usual?', 'Welke kleine omweg kan onze denkbeeldige zaterdag anders maken dan gewoonlijk?', 'Something that leaves room for both of us to enjoy it.', 'Iets waarvan we allebei kunnen genieten.'),
+      beat('The last light', 'Het laatste licht', 'As that Saturday winds down, how would you like us to end it together?', 'Hoe zou je willen dat we die zaterdag samen afsluiten als de dag ten einde loopt?', 'Picture the place, the pace and the feeling you would like to take home.', 'Stel je de plek, het tempo en het gevoel voor dat je mee naar huis wilt nemen.'),
+      beat('A little piece for real', 'Een stukje echt', 'Which little part of our Saturday could we actually try?', 'Welk klein stukje van onze zaterdag zouden we echt kunnen proberen?', 'We can enjoy a piece of the day without arranging all of it.', 'We mogen van een stukje van de dag genieten zonder alles te regelen.'),
+    ],
+    closing: pair('What little scene from our Saturday would you like to keep?', 'Welk klein tafereel van onze zaterdag wil je bewaren?'),
+  },
+  C02: {
+    about: pair('Give one wish a scene, imagine being there together, and see whether a small first step feels right.', 'Geef één wens een tafereel, stel je voor dat we er samen zijn en kijk of een kleine eerste stap goed voelt.'),
+    prompts: [
+      beat('Something for someday', 'Iets voor ooit', 'What is something you would still love us to experience together?', 'Wat zou je nog heel graag samen willen beleven?', 'A small wish is as welcome as a big dream.', 'Een kleine wens is net zo welkom als een grote droom.'),
+      beat('A scene inside the wish', 'Een tafereel in de wens', 'Imagine we are finally having that experience. What ordinary little detail can you picture?', 'Stel je voor dat we het eindelijk beleven. Welk gewoon klein detail zie je voor je?', 'Where we might be sitting, what we might hear, or how the day might begin.', 'Waar we misschien zitten, wat we horen of hoe de dag begint.'),
+      beat('Being there together', 'Er samen zijn', 'What would sharing that experience with me mean to you?', 'Wat zou het voor je betekenen om die ervaring met mij te delen?', 'There is no need for us to want exactly the same things from it.', 'We hoeven er niet precies hetzelfde in te zoeken.'),
+      beat('The pause before beginning', 'De aarzeling voor het begin', 'What has kept that wish waiting until now?', 'Waardoor is die wens tot nu toe blijven liggen?', 'A real obstacle, an uncertainty, or simply life taking up the room.', 'Een echte drempel, onzekerheid of gewoon het leven dat de ruimte inneemt.'),
+      beat('One small opening', 'Eén kleine opening', 'What would be a small, comfortable way to explore that wish?', 'Wat zou een kleine, fijne manier zijn om die wens te verkennen?', 'Exploring is enough. It does not have to become a promise or a plan.', 'Verkennen is genoeg. Het hoeft geen belofte of plan te worden.'),
+    ],
+    closing: pair('Would you like to keep the wish, the little scene, or a possible first step?', 'Wil je de wens, het kleine tafereel of een mogelijke eerste stap bewaren?'),
+  },
+  C03: {
+    about: pair('Stay with one good moment, notice its small ingredients, and imagine making room for it again.', 'Blijf bij één fijn moment, ontdek de kleine ingrediënten en stel je voor hoe er opnieuw ruimte voor kan zijn.'),
+    prompts: [
+      beat('A moment worth returning to', 'Een moment om naar terug te keren', 'Which recent moment together would you happily step back into?', 'In welk recent moment samen zou je graag nog even terugstappen?', 'Something brief or completely ordinary can be enough.', 'Iets korts of heel gewoons kan genoeg zijn.'),
+      beat('The little ingredients', 'De kleine ingrediënten', 'In that moment, what small detail made it feel good to you?', 'Welk klein detail maakte dat moment fijn voor jou?', 'The light, the pace, something we said, or something we did not need to do.', 'Het licht, het tempo, iets wat we zeiden of iets wat even niet hoefde.'),
+      beat('The same scene, two views', 'Hetzelfde tafereel, twee blikken', 'What part of that same moment do you think I enjoyed most?', 'Van welk stukje van datzelfde moment denk je dat ik het meest genoot?', 'We can ask each other rather than needing to guess correctly.', 'We mogen het elkaar vragen in plaats van het goed te moeten raden.'),
+      beat('A little room around it', 'Een beetje ruimte eromheen', 'What would need a little less of our attention to make room for a moment like that?', 'Wat zou wat minder van onze aandacht mogen vragen om ruimte te maken voor zo een moment?', 'Keep it small and kind to the life we actually have.', 'Hou het klein en mild voor het leven dat we echt hebben.'),
+      beat('Enjoying it once more', 'Er nog eens van genieten', 'What is one easy way we could enjoy a little of that again?', 'Wat is één eenvoudige manier om daar nog eens een beetje van te genieten?', 'Trying it once is enough; it does not need a schedule.', 'Het een keer proberen is genoeg; er hoeft geen planning bij.'),
+    ],
+    closing: pair('What would you like to remember about that good little moment?', 'Wat wil je onthouden over dat fijne kleine moment?'),
+  },
+  C04: {
+    about: pair('Follow one spark of curiosity from imagining it to being beginners, then find a first try that suits us both.', 'Volg één sprankje nieuwsgierigheid van de verbeelding naar samen beginner zijn, en zoek een eerste poging die bij ons allebei past.'),
+    prompts: [
+      beat('A spark of curiosity', 'Een sprankje nieuwsgierigheid', 'What is something new you would be curious to try together?', 'Wat is iets nieuws dat je graag samen zou proberen?', 'A taste, a place, a skill or a small experience.', 'Een smaak, een plek, een vaardigheid of een kleine ervaring.'),
+      beat('Imagine the first few minutes', 'De eerste paar minuten', 'Picture us trying that for the first time. What part would you look forward to?', 'Stel je voor dat we dat voor het eerst proberen. Naar welk stukje zou je uitkijken?', 'It can be the experience itself or simply seeing each other in a new setting.', 'Het mag de ervaring zelf zijn, of gewoon elkaar in een nieuwe omgeving zien.'),
+      beat('Being beginners', 'Samen beginner zijn', 'If we were both beginners at that, what would help us enjoy it without needing to be good?', 'Wat zou ons helpen ervan te genieten als we er allebei beginner in waren, zonder goed te moeten zijn?', 'A little patience, room to laugh, or permission to stop.', 'Een beetje geduld, ruimte om te lachen of mogen stoppen.'),
+      beat('A version for us both', 'Een versie voor ons allebei', 'How could we shape that new experience so there is something for each of us?', 'Hoe kunnen we die nieuwe ervaring vormgeven zodat er voor ieder van ons iets in zit?', 'We can change the pace, the setting or the size of the first try.', 'We mogen het tempo, de omgeving of de grootte van de eerste poging aanpassen.'),
+      beat('The simplest first try', 'De eenvoudigste eerste poging', 'What would the easiest first try of that idea look like?', 'Hoe zou de eenvoudigste eerste poging van dat idee eruitzien?', 'Something we could try once, then decide how we feel about it.', 'Iets wat we een keer kunnen proberen, en daarna voelen wat we ervan vinden.'),
+    ],
+    closing: pair('Would you like to keep a little version of the idea to try?', 'Wil je een kleine versie van het idee bewaren om te proberen?'),
+  },
+  C05: {
+    about: pair('Picture a moment of feeling at home, look around it together, and imagine one small welcoming change.', 'Stel je een moment van thuis voelen voor, kijk er samen omheen en verbeeld één kleine, welkome verandering.'),
+    prompts: [
+      beat('A feeling of home', 'Een gevoel van thuis', 'Picture a moment when you feel at home with me. What is happening?', 'Stel je een moment voor waarop je je bij mij thuis voelt. Wat gebeurt er?', 'We do not need to live together. A person, a place or a little routine can hold that feeling.', 'We hoeven niet samen te wonen. Een persoon, een plek of een klein ritueel kan dat gevoel geven.'),
+      beat('What is already there', 'Wat er al is', 'What little detail in our life already gives you some of that home feeling?', 'Welk klein detail in ons leven geeft je nu al iets van dat thuisgevoel?', 'Something familiar that I might walk past without noticing.', 'Iets vertrouwds waaraan ik misschien voorbijloop zonder het op te merken.'),
+      beat('A little more welcome', 'Een beetje meer welkom', 'If you could add a little more of one feeling to the spaces we share, what would it be?', 'Van welk gevoel zou je iets meer willen in de plekken die we delen?', 'Quiet, welcome, playfulness or a little room for yourself.', 'Rust, gastvrijheid, speelsheid of een beetje ruimte voor jezelf.'),
+      beat('Room for two kinds of comfort', 'Ruimte voor twee soorten comfort', 'Where might our different ideas of comfort need a little room beside each other?', 'Waar hebben onze verschillende ideeën over comfort wat ruimte naast elkaar nodig?', 'Neither version has to become the right one.', 'Geen van beide versies hoeft de juiste te worden.'),
+      beat('One welcoming change', 'Eén welkome verandering', 'What small change could make a moment we share feel a little more like home?', 'Welke kleine verandering kan een moment samen wat meer als thuis laten voelen?', 'A gesture or a habit can be enough; we do not need to buy anything.', 'Een gebaar of een gewoonte kan genoeg zijn; we hoeven niets te kopen.'),
+    ],
+    closing: pair('Which little detail of our kind of home would you like to keep?', 'Welk klein detail van ons soort thuis wil je bewaren?'),
+  },
+};

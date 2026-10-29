@@ -1,0 +1,2367 @@
+{
+  "revision": "editorial-imagery-v1",
+  "date": "2026-10-23",
+  "generator": "Built-in image_gen",
+  "sourceEditorial": "docs/STORY_LIBRARY_DRAFT.md",
+  "status": "Owner rejected visual direction; retained as superseded source/history. See question-specific editorial-v2.",
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "frameAspect": "3:2",
+    "order": "Two columns by three rows, row-major; five questions then closing. Reviewed actual paper-gap cuts supersede ideal equal cells.",
+    "requestedMaster": "square, ideally 1536×1536; retain actual source dimensions without upscaling"
+  },
+  "sharedPrompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.",
+  "stories": [
+    {
+      "id": "S01",
+      "title": "Before we said hello",
+      "motif": "Lavender scarf, green café door, rust/green cups and daisies.",
+      "scenes": [
+        "Panel 1: wide quiet green cafe frontage before a date, two empty bentwood chairs at a little round table, mellow late-afternoon light and a hint of cobblestone street; anticipation.",
+        "Panel 2: intimate getting-ready still life, lavender scarf draped over a simple wooden chair beside an unmarked mirror and a coat on a hook, no shoes or wardrobe gender cues; personal preparation.",
+        "Panel 3: view through the cafe doorway just ajar, the little table and two cups visible beyond, inviting light; the first hello without depicting people.",
+        "Panel 4: close tabletop view of the same cups now partly drunk, three daisies, a few crumbs on a small plate, late warm light; one real moment shared.",
+        "Panel 5: wide doorway at blue-lavender dusk, cafe light behind, lavender scarf now folded over the chair near the exit, a quiet street continuing out of frame; the date ending with room for what comes next.",
+        "Panel 6: quiet gathered closing still life of the two cups, lavender scarf and three daisies on a softly painted cafe tabletop; warm resting composition, no implied promise."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S01.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S01-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S01-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S01-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S01-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S01-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S01-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "8ebeb87aa6f8f2d718bd8ea53b5f5fe7de29004e902297688e972dd724ae7def",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "Before the date",
+          "question": "What was on your mind before our first date?",
+          "nudge": "Think of a hope, a worry, or what the rest of your day was like.",
+          "image": "artwork/storyboards/editorial-v1/frames/S01-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 15,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "b70e58dd68fd182eed6242e7a3ae4abdadcd8d5f8a5910f87d4c6cbba61ffa9d",
+          "bytes": 102041,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "Getting ready",
+          "question": "What do you remember doing to get ready for our first date?",
+          "nudge": "Picking clothes, checking the time, or coming straight from something else all count.",
+          "image": "artwork/storyboards/editorial-v1/frames/S01-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 15,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "db72fc26a8e9472a48ad8536c88c177a31722560adcddc499d6191cfdd393570",
+          "bytes": 75422,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "The first hello",
+          "question": "When you first saw me that day, what caught your eye?",
+          "nudge": "A smile, a coat, the way I stood. A rough memory is enough.",
+          "image": "artwork/storyboards/editorial-v1/frames/S01-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 431,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "53bfe3a56ca9a15fc4df8441b9504e39205b6efe9b5d7c33955bed68f5a7e1f2",
+          "bytes": 84185,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "One moment",
+          "question": "What small moment from our first date has stayed with you?",
+          "nudge": "It can be sweet, awkward, funny, or just clear in your mind.",
+          "image": "artwork/storyboards/editorial-v1/frames/S01-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 431,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "0e7d275097e7d8bd5e0a502d1a3b0ed3e9d2d6624b8d82cef7f0c1be9f09b554",
+          "bytes": 76222,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "Saying goodbye",
+          "question": "When our first date ended, what did you hope would happen next?",
+          "nudge": "You may have felt sure, unsure, or ready to see where it went.",
+          "image": "artwork/storyboards/editorial-v1/frames/S01-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 853,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "77d516b17ced3943f35063b3010850cae77330e4616c03835a5cd69e66d34fcd",
+          "bytes": 93766,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep one detail from the start of our story.",
+          "image": "artwork/storyboards/editorial-v1/frames/S01-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 853,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "e8c50f12e032f436cc1ec5fdb5f738f937eaa72280b38d77c394f170f870836d",
+          "bytes": 73349,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-6b8ed211-3943-4fd8-be19-35ccd6616507.png",
+        "prompt": "Use case: precise-object-edit. Edit this six-panel watercolor storyboard only to remove every tiny distant human figure or pedestrian silhouette from the street, especially in the bottom-left dusk scene. Replace them seamlessly with the empty cobblestone street and existing architecture. Preserve the exact square 2-column by 3-row layout, all six panel compositions, watercolor brushwork, palette, feathered paper edges, cafe, chairs, scarf, cups, flowers and lighting. No other changes. No text or people anywhere.",
+        "edit": true
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          626,
+          1254
+        ],
+        "y": [
+          0,
+          414,
+          829,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S02",
+      "title": "That is so us",
+      "motif": "Plain wooden stacking blocks and a clementine; playful domestic mishap.",
+      "scenes": [
+        "A cozy lived-in table with a comically leaning little tower of plain wooden blocks and one clementine perched on top; an instantly playful memory, no people.",
+        "The same tabletop just before the mishap: a small neat stack of blocks, clementine resting in a shallow sage bowl, mellow afternoon light.",
+        "A close scene of the tower gently toppled, blocks scattered and the clementine rolled into an empty terracotta bowl; harmless silly surprise, no damage.",
+        "Medium scene of the same clementine nestled in an absurd little throne made from the scattered blocks; understated humor, believable handmade arrangement.",
+        "The wooden blocks and clementine beside an open blank photo album on the table, the playful scene ready to retell; pages completely unlettered and empty.",
+        "Resting closing still life: the little wooden blocks loosely gathered, one clementine and the shallow sage bowl; a warm funny detail kept, no perfect tower."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S02.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S02-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S02-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S02-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S02-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S02-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S02-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "8d0355c372b3cb65aff0daab573a8e7aa54e865832791ce38f1f46a91440dd4b",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The memory",
+          "question": "What is one moment with me that still makes you laugh?",
+          "nudge": "A tiny mix-up or a silly thing we said is enough.",
+          "image": "artwork/storyboards/editorial-v1/frames/S02-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 0,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "8eb2901fa624f94141348bce05c1259d08f3048e7b1d5b4167289338a901993c",
+          "bytes": 87766,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "Just before",
+          "question": "What was going on just before that funny moment?",
+          "nudge": "Put us back in the place. The story can be short.",
+          "image": "artwork/storyboards/editorial-v1/frames/S02-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 15,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "eb0d95ad3564187b410fb5d3fd42876564a05f2900095707bc276506434506d1",
+          "bytes": 85165,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "The funny bit",
+          "question": "What part of that moment makes you laugh the most?",
+          "nudge": "A face, a few words, or the bit that went wrong.",
+          "image": "artwork/storyboards/editorial-v1/frames/S02-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 424,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "b7106996fd70ca2e8b3f15395a10b18cca8a362c77e5a6793ff6f61101d71d52",
+          "bytes": 84750,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "Only us",
+          "question": "What makes that joke feel like one of ours?",
+          "nudge": "It may link to something we do, say, or have been through together.",
+          "image": "artwork/storyboards/editorial-v1/frames/S02-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 424,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "ea9ef16cebf32732998e847fef5d9725d3934df47cc10b6773b7c13a484e54d1",
+          "bytes": 84071,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "Tell it again",
+          "question": "How would you tell that funny story to someone who was not there?",
+          "nudge": "Tell it your way. We do not need to agree on every detail.",
+          "image": "artwork/storyboards/editorial-v1/frames/S02-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 846,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "2de3273f3dbd6219353fef11005f6fc9043ec21701153b22dbef4ae16041a030",
+          "bytes": 82101,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, give our funny story a name to keep.",
+          "image": "artwork/storyboards/editorial-v1/frames/S02-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 846,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c81254cc19c8bcee7c07887e8e5131b0c89a74589363721ee2f4fc0b6f0ebdc3",
+          "bytes": 84390,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-850c8c84-10cd-4c27-8977-0f12feef238d.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S02: That is so us. Recurring anchors: Plain wooden stacking blocks and a clementine; playful domestic mishap.\nPanel 1: A cozy lived-in table with a comically leaning little tower of plain wooden blocks and one clementine perched on top; an instantly playful memory, no people.\nPanel 2: The same tabletop just before the mishap: a small neat stack of blocks, clementine resting in a shallow sage bowl, mellow afternoon light.\nPanel 3: A close scene of the tower gently toppled, blocks scattered and the clementine rolled into an empty terracotta bowl; harmless silly surprise, no damage.\nPanel 4: Medium scene of the same clementine nestled in an absurd little throne made from the scattered blocks; understated humor, believable handmade arrangement.\nPanel 5: The wooden blocks and clementine beside an open blank photo album on the table, the playful scene ready to retell; pages completely unlettered and empty.\nPanel 6: Resting closing still life: the little wooden blocks loosely gathered, one clementine and the shallow sage bowl; a warm funny detail kept, no perfect tower.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          626,
+          1254
+        ],
+        "y": [
+          0,
+          414,
+          815,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      },
+      "cropOverrides": {
+        "0": {
+          "y": "start",
+          "reason": "Keep the clementine at the top of the playful tower fully visible."
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "title": "The trip that went sideways",
+      "motif": "Sage umbrella, canvas day bag, folded unlettered map; a modest local day out.",
+      "scenes": [
+        "A canvas day bag and folded unlettered street map on a small hall bench, sage umbrella leaning nearby, bright morning outside the open door; the simple plan.",
+        "An empty little park path in a sudden light shower, umbrella open against a bench, bag tucked safely under it, softly painted rain; an ordinary change of plan.",
+        "Close detail of the wet sage umbrella and folded map on a sheltered bench, a pair of ordinary muddy walking shoes below; an improvised pause.",
+        "The shower clearing over the same quiet park path, puddle reflecting warm green leaves, umbrella now folded on the bench; mixed memory, no triumphant rainbow.",
+        "Back indoors: damp umbrella propped beside the door and open blank album with an entirely unlettered little watercolor landscape on a page; the trip as a story.",
+        "Closing still life of the folded sage umbrella, canvas bag strap, plain folded map and a small park leaf on warm paper; softly settled."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S03.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S03-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S03-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S03-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S03-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S03-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S03-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "3050c4f0e69379ed1add0b2a4fa8c8aa2d169637eb183b294b133dc08deed073",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The plan",
+          "question": "Think of a trip where our plan changed. What had we planned to do?",
+          "nudge": "A small day out counts just as much as a long trip.",
+          "image": "artwork/storyboards/editorial-v1/frames/S03-01.jpg",
+          "sourceCrop": {
+            "x": 24,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "d7780df77197dea8bb3453ce30bbce531de6fe4e764d09bdad1d2953b41f338d",
+          "bytes": 97867,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "The turn",
+          "question": "What happened on that trip that we did not expect?",
+          "nudge": "The weather, a wrong turn, a closed door, or a change of heart.",
+          "image": "artwork/storyboards/editorial-v1/frames/S03-02.jpg",
+          "sourceCrop": {
+            "x": 655,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "3a234d77ea10411125bab8d7a0bc90b85d9502bace6537192328a81ce5ace53d",
+          "bytes": 115212,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "Our next move",
+          "question": "What did you do when our plan changed?",
+          "nudge": "Think of your own first reaction. I can tell you about mine.",
+          "image": "artwork/storyboards/editorial-v1/frames/S03-03.jpg",
+          "sourceCrop": {
+            "x": 24,
+            "y": 435,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "e972624691b68a2c0a4dc773e5a797b4be1abcd3e01512fb5ad9450a04b63d01",
+          "bytes": 107415,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "Looking back",
+          "question": "How do you feel about that change of plan now?",
+          "nudge": "Funny, still annoying, a bit of both. It does not need a happy ending.",
+          "image": "artwork/storyboards/editorial-v1/frames/S03-04.jpg",
+          "sourceCrop": {
+            "x": 655,
+            "y": 435,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c50181a689b3b02d5b35faff1d89ee239ca86f0c8ab796656c3ebab73904daa4",
+          "bytes": 115769,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "The story now",
+          "question": "What part of that trip would you tell someone about first?",
+          "nudge": "It may be the problem, a good surprise, or how the day finally ended.",
+          "image": "artwork/storyboards/editorial-v1/frames/S03-05.jpg",
+          "sourceCrop": {
+            "x": 24,
+            "y": 856,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "239f1cb1230f89453d904ff16fbce41baf0ea43cd57302232da24b7b9c5bae9a",
+          "bytes": 88215,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep one line from our day that went off plan.",
+          "image": "artwork/storyboards/editorial-v1/frames/S03-06.jpg",
+          "sourceCrop": {
+            "x": 655,
+            "y": 856,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "e4dc228be53a0a84473a6fc15f6887437b0eee279009cc47708057c1a7bb7ee7",
+          "bytes": 89084,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-abd811e3-4011-4f25-af39-db90bdceee84.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S03: The trip that went sideways. Recurring anchors: Sage umbrella, canvas day bag, folded unlettered map; a modest local day out.\nPanel 1: A canvas day bag and folded unlettered street map on a small hall bench, sage umbrella leaning nearby, bright morning outside the open door; the simple plan.\nPanel 2: An empty little park path in a sudden light shower, umbrella open against a bench, bag tucked safely under it, softly painted rain; an ordinary change of plan.\nPanel 3: Close detail of the wet sage umbrella and folded map on a sheltered bench, a pair of ordinary muddy walking shoes below; an improvised pause.\nPanel 4: The shower clearing over the same quiet park path, puddle reflecting warm green leaves, umbrella now folded on the bench; mixed memory, no triumphant rainbow.\nPanel 5: Back indoors: damp umbrella propped beside the door and open blank album with an entirely unlettered little watercolor landscape on a page; the trip as a story.\nPanel 6: Closing still life of the folded sage umbrella, canvas bag strap, plain folded map and a small park leaf on warm paper; softly settled.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          623,
+          1254
+        ],
+        "y": [
+          0,
+          417,
+          834,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S04",
+      "title": "Our little habit",
+      "motif": "Sage kettle, lavender-striped tea towel and two simple mugs; one modest daily ritual.",
+      "scenes": [
+        "A small kitchen corner with a sage kettle, two mismatched everyday mugs and a lavender-striped tea towel, morning light; a recognizable shared little habit.",
+        "Close view of the same older sage kettle beside just one mug and the striped towel on a modest table, a quiet early beginning rather than a claim of exact history.",
+        "The kettle pouring nothing, resting with both mugs on a small tray beside an open window, soft morning steam only from one mug; the familiar moment.",
+        "Close detail of the worn mug handle and softly creased lavender-striped cloth, warm light catching use and familiarity; ordinary texture that matters.",
+        "The same kettle and mugs on a clear compact table, towel folded differently and a fresh sprig in a small jar; a habit able to fit today's life.",
+        "Closing arrangement of sage kettle, two mugs and lavender-striped cloth, broad shallow composition, warm resting light and irregular watercolor edges."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S04.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S04-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S04-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S04-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S04-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S04-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S04-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "8863d838fab72f4fa96ac1175e2a88dcfcee25bec20c6ea72e193057ba80b6aa",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The habit",
+          "question": "What small thing do we do that feels like our thing?",
+          "nudge": "A shared snack, a phrase, a call, or the way we say goodnight.",
+          "image": "artwork/storyboards/editorial-v1/frames/S04-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 17,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "9688d0b2bfea06e10ac562944771b79b997e87cba90ada39be3b9c7093801752",
+          "bytes": 103031,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "How it began",
+          "question": "What do you remember about how our little habit started?",
+          "nudge": "An early memory is enough. We do not need to find the very first time.",
+          "image": "artwork/storyboards/editorial-v1/frames/S04-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 17,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "a89255a0a9e60e2a8666cc40c9552cf4284cda55749d3adfdcc42359760b23bb",
+          "bytes": 92846,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "The familiar bit",
+          "question": "What part of our little habit do you look forward to?",
+          "nudge": "The thing itself, the timing, or knowing we will have a moment together.",
+          "image": "artwork/storyboards/editorial-v1/frames/S04-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 436,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "8fb934e59d60ae93cf416f82ac9b4f08a7c8ed88cbb749ebed0ffbaa125bd158",
+          "bytes": 101400,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "What it means",
+          "question": "What does that little habit mean to you?",
+          "nudge": "It can be comforting, fun, useful, or simply something familiar.",
+          "image": "artwork/storyboards/editorial-v1/frames/S04-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 436,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "6538c1b729ed6a5ab85f418ab5e2473a035f7fbef5580fe5e4a1c74783287d95",
+          "bytes": 88829,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "Its place now",
+          "question": "How would you like that habit to fit our life now?",
+          "nudge": "Keep it, change it, or let it rest. We can feel differently about it.",
+          "image": "artwork/storyboards/editorial-v1/frames/S04-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 856,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c9ad3e3ccdf626920c6f786bd939831b340f9a0ee14c611743c83a33099da294",
+          "bytes": 94048,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep a small picture in words of our little habit.",
+          "image": "artwork/storyboards/editorial-v1/frames/S04-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 856,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "535d03b3d465346e2347c6f308b0ebc4fb199fd196f74ff759898ddfd54968f5",
+          "bytes": 96699,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-791b9231-6756-42ef-8973-b9bea42d060e.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S04: Our little habit. Recurring anchors: Sage kettle, lavender-striped tea towel and two simple mugs; one modest daily ritual.\nPanel 1: A small kitchen corner with a sage kettle, two mismatched everyday mugs and a lavender-striped tea towel, morning light; a recognizable shared little habit.\nPanel 2: Close view of the same older sage kettle beside just one mug and the striped towel on a modest table, a quiet early beginning rather than a claim of exact history.\nPanel 3: The kettle pouring nothing, resting with both mugs on a small tray beside an open window, soft morning steam only from one mug; the familiar moment.\nPanel 4: Close detail of the worn mug handle and softly creased lavender-striped cloth, warm light catching use and familiarity; ordinary texture that matters.\nPanel 5: The same kettle and mugs on a clear compact table, towel folded differently and a fresh sprig in a small jar; a habit able to fit today's life.\nPanel 6: Closing arrangement of sage kettle, two mugs and lavender-striped cloth, broad shallow composition, warm resting light and irregular watercolor edges.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          627,
+          1254
+        ],
+        "y": [
+          0,
+          418,
+          834,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S05",
+      "title": "What came with you",
+      "motif": "Worn enamel mixing bowl, wooden spoon and checked cloth; an ordinary childhood habit carried forward.",
+      "scenes": [
+        "A modest old kitchen shelf with a cream enamel mixing bowl, a worn wooden spoon and folded muted-lavender checked cloth; an everyday piece of growing up, no nostalgia clichés.",
+        "The same bowl on a simple kitchen table, spoon beside a small mound of flour and a plain loaf, daylight from a small window; one ordinary household scene.",
+        "Close still life of the worn rim of the enamel bowl and the familiar checked cloth, soft neutral light; room for mixed feelings, no sentimental glow or distress imagery.",
+        "The same enamel bowl and wooden spoon now in a simple present-day kitchen corner, one fresh sage sprig nearby, recognizable continuity with a little change.",
+        "Old wooden spoon beside a simple newer spoon and the same checked cloth partly folded, both resting by the bowl with room between them; keeping some things and choosing one's own way.",
+        "Quiet closing still life of the enamel bowl, checked cloth and one wooden spoon on a softly painted tabletop; modest, warm, open-ended."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S05.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S05-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S05-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S05-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S05-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S05-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S05-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "79f94198f4c25c718ca8ecad28041d35e1384ceb42759e9330cdb3669b1d2806",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "Back then",
+          "question": "What small habit or rule do you remember from where you grew up?",
+          "nudge": "Think of meals, weekends, guests, quiet time, or how people said hello.",
+          "image": "artwork/storyboards/editorial-v1/frames/S05-01.jpg",
+          "sourceCrop": {
+            "x": 27,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "6cc38a1f280424b777d834eeced333f347abd126923c45649609f3e3d89a3c88",
+          "bytes": 92030,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "An ordinary day",
+          "question": "What did that habit or rule look like on a normal day?",
+          "nudge": "One scene is enough. You can leave out names or details.",
+          "image": "artwork/storyboards/editorial-v1/frames/S05-02.jpg",
+          "sourceCrop": {
+            "x": 658,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c42c6cf4ba574925ec38872e33f8edabbcef2456a8438fb1cce6b20ecc67775c",
+          "bytes": 94018,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "Your side of it",
+          "question": "How did that habit or rule feel to you back then?",
+          "nudge": "You may have liked it, disliked it, or not thought much about it.",
+          "image": "artwork/storyboards/editorial-v1/frames/S05-03.jpg",
+          "sourceCrop": {
+            "x": 27,
+            "y": 430,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "d1bb3780546f1fc36fe8673aac310342df23ebb51a4527ec2cc4df7e02474922",
+          "bytes": 68685,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "Here today",
+          "question": "Where does that old habit or rule show up in your life now?",
+          "nudge": "You might still do it, do the opposite, or notice it only now.",
+          "image": "artwork/storyboards/editorial-v1/frames/S05-04.jpg",
+          "sourceCrop": {
+            "x": 658,
+            "y": 430,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c76650aedb1b8703c66f919ea35fc8595b4d1b4ffb81e5028ba56582227736f8",
+          "bytes": 81594,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "Your own way",
+          "question": "What would you like to keep or change about that habit or rule?",
+          "nudge": "There is room to keep one part and leave another behind.",
+          "image": "artwork/storyboards/editorial-v1/frames/S05-05.jpg",
+          "sourceCrop": {
+            "x": 27,
+            "y": 851,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c5e9c1211445a3fbbadd7959939f9964db9d0e76ad24e99ab74a982c16976dcb",
+          "bytes": 85096,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep one thing you want me to know about that part of your life.",
+          "image": "artwork/storyboards/editorial-v1/frames/S05-06.jpg",
+          "sourceCrop": {
+            "x": 658,
+            "y": 851,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "892cfeb1f8e605d901cca23305c89cc313658cc7a7916defedf677ce13dc25a7",
+          "bytes": 85764,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-f1f355f2-6525-4285-bd86-1202d969ec0d.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S05: What came with you. Recurring anchors: Worn enamel mixing bowl, wooden spoon and checked cloth; an ordinary childhood habit carried forward.\nPanel 1: A modest old kitchen shelf with a cream enamel mixing bowl, a worn wooden spoon and folded muted-lavender checked cloth; an everyday piece of growing up, no nostalgia clichés.\nPanel 2: The same bowl on a simple kitchen table, spoon beside a small mound of flour and a plain loaf, daylight from a small window; one ordinary household scene.\nPanel 3: Close still life of the worn rim of the enamel bowl and the familiar checked cloth, soft neutral light; room for mixed feelings, no sentimental glow or distress imagery.\nPanel 4: The same enamel bowl and wooden spoon now in a simple present-day kitchen corner, one fresh sage sprig nearby, recognizable continuity with a little change.\nPanel 5: Old wooden spoon beside a simple newer spoon and the same checked cloth partly folded, both resting by the bowl with room between them; keeping some things and choosing one's own way.\nPanel 6: Quiet closing still life of the enamel bowl, checked cloth and one wooden spoon on a softly painted tabletop; modest, warm, open-ended.\nFor this personal/everyday topic keep the mood grounded and calm. Do not imply an ideal family, a fixed answer, or a required emotional outcome.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          629,
+          1254
+        ],
+        "y": [
+          0,
+          416,
+          824,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S06",
+      "title": "When the day is done",
+      "motif": "Canvas work bag, soft shoes, warm lamp and a reading chair; a busy day easing into evening.",
+      "scenes": [
+        "A canvas bag and simple shoes just set down beside an entry bench, an open interior doorway leading toward a softly lit room; the end of a full day.",
+        "Close scene of a small plate of bread and a single glass of water on a side table, soft late daylight; the first simple need after a busy day.",
+        "A comfortable reading chair near a window with a folded lavender throw, a second simple chair farther into the same warm room; room for company or quiet.",
+        "The little side lamp switched on beside the chair while the window light fades, bag resting by the door in the background; a small everyday signal, no phone text.",
+        "A clear welcoming corner: folded throw on the chair, plate and water within reach, lamp warm, a small pile of dishes left safely aside; welcome practical help.",
+        "Closing composition of the canvas bag, warm side lamp and folded throw around the resting chair, broad gentle framing; an evening allowed to slow down."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S06.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S06-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S06-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S06-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S06-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S06-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S06-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "c0d995ddad084d11b27a2d2ddd6a91d2fdd3d0bb540d8e9fa58301cba090a11e",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The day ends",
+          "question": "Think of your last busy day. What were you doing when it finally slowed down?",
+          "nudge": "Maybe you sat down, left work, closed a door, or put your phone away.",
+          "image": "artwork/storyboards/editorial-v1/frames/S06-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 12,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "e9d8330aa0419927e9870b05507319a1c0da1359e3176ed384db6e0a8236e72e",
+          "bytes": 84920,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "The first need",
+          "question": "After a busy day like that, what do you want first?",
+          "nudge": "Food, quiet, a shower, a chat, or a little time to do nothing.",
+          "image": "artwork/storyboards/editorial-v1/frames/S06-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 12,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "de601a7d472766df856b4581f954b25f061ea7bc14a12435b211c73d53b4bd68",
+          "bytes": 76834,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "Alone or together",
+          "question": "When your day ends, how do you like me to be there for you?",
+          "nudge": "Nearby, on the phone, listening, or giving you some space can all count.",
+          "image": "artwork/storyboards/editorial-v1/frames/S06-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 431,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "f3e24b64d74d98751902203db066c4f212468625cc036d111c2c9882730fe53b",
+          "bytes": 90100,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "A small signal",
+          "question": "How could you let me know what you need after a busy day?",
+          "nudge": "A few plain words are enough. Your needs can change from day to day.",
+          "image": "artwork/storyboards/editorial-v1/frames/S06-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 431,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "7daea832d28aec3262a5eb107c7a5436b30af5a55cc55f740bd0eaea31e7622a",
+          "bytes": 75887,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "A welcome bit of help",
+          "question": "What small thing from me could make your next busy evening easier?",
+          "nudge": "Think of help you would welcome, even if it is just leaving something for later.",
+          "image": "artwork/storyboards/editorial-v1/frames/S06-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 856,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "79b16ccce3b3141dc4f9805eb19358819033c4a195fd5625601737b4b0ac01f4",
+          "bytes": 71332,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep a few words that help us check in after a full day.",
+          "image": "artwork/storyboards/editorial-v1/frames/S06-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 856,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "031c78793bfd01ff92710b6b2108c7d083210b3774708203651cfcc08b73123c",
+          "bytes": 85501,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-8658bad2-b856-4e28-9a7a-22d2647a5c8d.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S06: When the day is done. Recurring anchors: Canvas work bag, soft shoes, warm lamp and a reading chair; a busy day easing into evening.\nPanel 1: A canvas bag and simple shoes just set down beside an entry bench, an open interior doorway leading toward a softly lit room; the end of a full day.\nPanel 2: Close scene of a small plate of bread and a single glass of water on a side table, soft late daylight; the first simple need after a busy day.\nPanel 3: A comfortable reading chair near a window with a folded lavender throw, a second simple chair farther into the same warm room; room for company or quiet.\nPanel 4: The little side lamp switched on beside the chair while the window light fades, bag resting by the door in the background; a small everyday signal, no phone text.\nPanel 5: A clear welcoming corner: folded throw on the chair, plate and water within reach, lamp warm, a small pile of dishes left safely aside; welcome practical help.\nPanel 6: Closing composition of the canvas bag, warm side lamp and folded throw around the resting chair, broad gentle framing; an evening allowed to slow down.\nFor this personal/everyday topic keep the mood grounded and calm. Do not imply an ideal family, a fixed answer, or a required emotional outcome.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          627,
+          1254
+        ],
+        "y": [
+          0,
+          409,
+          834,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S07",
+      "title": "I notice that",
+      "motif": "A peeled orange, a simple plate and water glass; care visible in a small ordinary gesture.",
+      "scenes": [
+        "A freshly peeled orange arranged on a small sage plate on a modest table, water glass nearby and warm morning light; a quiet thoughtful gesture.",
+        "A closer view of the orange segments, loose curl of peel and the small sage plate placed next to a comfortable chair; one specific everyday moment.",
+        "Sunlight on the orange segments and clear water glass, a tiny wet mark on the tabletop and a folded napkin; attention to why a small thing can matter.",
+        "The same plate now with a few segments left and peel loosely gathered, chair softly visible behind; a gesture noticed after the moment, warm and understated.",
+        "Two different little plates on the table, one with orange segments and one with a pear cut in simple slices; different ways to show care, no symmetry test.",
+        "Closing still life: sage plate, curl of orange peel, a few bright segments and the water glass; a small thing given quiet attention."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S07.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S07-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S07-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S07-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S07-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S07-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S07-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "b626ba584d50408601fba89543eb27b22bda05991cb3ebdefd196664f8cad7fd",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The small thing",
+          "question": "What is one small thing I do that you like?",
+          "nudge": "It can be very ordinary, like how I greet you or bring you a drink.",
+          "image": "artwork/storyboards/editorial-v1/frames/S07-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 14,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "f1f50f8f9a03df559fcec3b777608cf28a906be63e74615d527388c3916cf397",
+          "bytes": 91011,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "One real moment",
+          "question": "When did you last notice me doing that small thing?",
+          "nudge": "A rough memory is fine. Tell me enough to picture the moment.",
+          "image": "artwork/storyboards/editorial-v1/frames/S07-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 14,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "8c2268c0f3cb54675f868964426256f8b4d02948aa2f462b1d8ace8d0a3bcd49",
+          "bytes": 93119,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "Why it mattered",
+          "question": "What did that small thing mean to you at the time?",
+          "nudge": "Perhaps it helped, made you smile, or showed I had thought of you.",
+          "image": "artwork/storyboards/editorial-v1/frames/S07-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 429,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "f1d5de1ee877d710077dbc93af089e924b36bce13f8ba91b4dd0da62c08c8f1d",
+          "bytes": 88406,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "What you wanted to say",
+          "question": "What would you like me to know about that small thing I do?",
+          "nudge": "It may matter more than I realise, or matter in a different way.",
+          "image": "artwork/storyboards/editorial-v1/frames/S07-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 429,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "a7724bdf0877693a997b07ec21c7b2fe530d2e8a3a71ee70a6efdfc1630c27e9",
+          "bytes": 79200,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "Noticing you",
+          "question": "How do you like me to show that I notice the things you do?",
+          "nudge": "A few words, quiet thanks, or a small act can feel different to each of us.",
+          "image": "artwork/storyboards/editorial-v1/frames/S07-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 852,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "750751bc7efe93d4183cfc11166ff3c8f925aebbbcc5214edc1b5740d6fd0010",
+          "bytes": 89636,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep a few words about a small thing that mattered.",
+          "image": "artwork/storyboards/editorial-v1/frames/S07-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 852,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "89d1ac86d561e71f40faad516265fef0ce9d54403ccf9cd696e9a83be15b20f2",
+          "bytes": 95716,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-43b387d4-9d85-4612-b733-3ce20f915d12.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S07: I notice that. Recurring anchors: A peeled orange, a simple plate and water glass; care visible in a small ordinary gesture.\nPanel 1: A freshly peeled orange arranged on a small sage plate on a modest table, water glass nearby and warm morning light; a quiet thoughtful gesture.\nPanel 2: A closer view of the orange segments, loose curl of peel and the small sage plate placed next to a comfortable chair; one specific everyday moment.\nPanel 3: Sunlight on the orange segments and clear water glass, a tiny wet mark on the tabletop and a folded napkin; attention to why a small thing can matter.\nPanel 4: The same plate now with a few segments left and peel loosely gathered, chair softly visible behind; a gesture noticed after the moment, warm and understated.\nPanel 5: Two different little plates on the table, one with orange segments and one with a pear cut in simple slices; different ways to show care, no symmetry test.\nPanel 6: Closing still life: sage plate, curl of orange peel, a few bright segments and the water glass; a small thing given quiet attention.\nFor this personal/everyday topic keep the mood grounded and calm. Do not imply an ideal family, a fixed answer, or a required emotional outcome.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          626,
+          1254
+        ],
+        "y": [
+          0,
+          412,
+          827,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S08",
+      "title": "Close, in your own way",
+      "motif": "A warm sitting nook with distinct lavender and ochre cushions; welcome closeness and room for space.",
+      "scenes": [
+        "A softly upholstered small sofa with one muted-lavender cushion and one ochre cushion resting near each other but not touching, folded sage throw on the arm; warm tactile comfort.",
+        "The same sitting nook in soft morning light, close detail of the two different cushion fabrics and the loosely folded throw; when closeness feels welcome.",
+        "Wide view of one comfortable armchair with its own cushion, open space around it and a softly lit side table, visibly warm rather than lonely; welcome personal space.",
+        "Two different comfortable chairs angled gently toward a small low table with clear open floor between them; an invitation to ask, no reaching hands, barriers or forced togetherness.",
+        "Close detail of the folded sage throw on the sofa arm and both distinct cushions with comfortable room around them; personal limits held without coldness.",
+        "Closing wide view of the warm nook: sofa, separate chair, lavender and ochre cushions and folded sage throw; space and closeness can coexist, no visual verdict."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S08.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S08-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S08-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S08-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S08-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S08-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S08-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "569d9dffd0acf494f1a6fc16e0daecf1a6c623bb52e0154adb91d9cb58cd08e5",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "A welcome touch",
+          "question": "What kind of touch from me do you enjoy, if any?",
+          "nudge": "Holding hands, a brief hug, or sitting close. No touch is fine too.",
+          "image": "artwork/storyboards/editorial-v1/frames/S08-01.jpg",
+          "sourceCrop": {
+            "x": 25,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "7e0a7c2cd9a07111e9e150f95fe5e1a70b0f64d18d00202dad60b63c6ddf728a",
+          "bytes": 102473,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "When it fits",
+          "question": "At what times does touch from me feel welcome?",
+          "nudge": "Time, place and mood can change what feels good. It is okay if touch is not welcome.",
+          "image": "artwork/storyboards/editorial-v1/frames/S08-02.jpg",
+          "sourceCrop": {
+            "x": 656,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "71f3f49e77696ba34e33a4ca18606d5bcf781ec40be271713cfbae598a5b479d",
+          "bytes": 97561,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "When space fits",
+          "question": "At what times would you rather have some space from touch?",
+          "nudge": "You do not have to defend wanting space. It is okay if no example comes to mind.",
+          "image": "artwork/storyboards/editorial-v1/frames/S08-03.jpg",
+          "sourceCrop": {
+            "x": 25,
+            "y": 421,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c5de75792f7c8fed8df9e36604ee85b1c04a4cb76ed4a6412afc8c32c5ee0b21",
+          "bytes": 100967,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "Asking first",
+          "question": "How would you like me to ask before I touch you?",
+          "nudge": "Use words that feel natural to you. Either of us can say no or change our mind.",
+          "image": "artwork/storyboards/editorial-v1/frames/S08-04.jpg",
+          "sourceCrop": {
+            "x": 656,
+            "y": 421,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "00358c3d23aa5283b2a06c1cd3852f43a10f77aebe79d95ba5fe49f01ecb5ea8",
+          "bytes": 106617,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "What to remember",
+          "question": "What would you like me to remember about touch with you?",
+          "nudge": "This can be a wish, a limit, or something that changes from day to day.",
+          "image": "artwork/storyboards/editorial-v1/frames/S08-05.jpg",
+          "sourceCrop": {
+            "x": 25,
+            "y": 842,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "a53a1913d06f01635b7e63330d60e87fc8f7fb4515dd7217dee5cf25e24c2e0e",
+          "bytes": 98042,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep one thing you want me to know about touch. We can leave it here too.",
+          "image": "artwork/storyboards/editorial-v1/frames/S08-06.jpg",
+          "sourceCrop": {
+            "x": 656,
+            "y": 842,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "d63d4f367a749038b4c0b1dcf65b9ce6cbaf29d5f836e093d528ff0cb833ed13",
+          "bytes": 106925,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-152359c1-a50d-4cab-93b8-91a6ad97e9dc.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S08: Close, in your own way. Recurring anchors: A warm sitting nook with distinct lavender and ochre cushions; welcome closeness and room for space.\nPanel 1: A softly upholstered small sofa with one muted-lavender cushion and one ochre cushion resting near each other but not touching, folded sage throw on the arm; warm tactile comfort.\nPanel 2: The same sitting nook in soft morning light, close detail of the two different cushion fabrics and the loosely folded throw; when closeness feels welcome.\nPanel 3: Wide view of one comfortable armchair with its own cushion, open space around it and a softly lit side table, visibly warm rather than lonely; welcome personal space.\nPanel 4: Two different comfortable chairs angled gently toward a small low table with clear open floor between them; an invitation to ask, no reaching hands, barriers or forced togetherness.\nPanel 5: Close detail of the folded sage throw on the sofa arm and both distinct cushions with comfortable room around them; personal limits held without coldness.\nPanel 6: Closing wide view of the warm nook: sofa, separate chair, lavender and ochre cushions and folded sage throw; space and closeness can coexist, no visual verdict.\nFor this personal/everyday topic keep the mood grounded and calm. Do not imply an ideal family, a fixed answer, or a required emotional outcome.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          625,
+          1254
+        ],
+        "y": [
+          0,
+          417,
+          806,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S09",
+      "title": "The small thing we get stuck on",
+      "motif": "An ordinary kitchen table, two distinct place settings and a little salt pot; small friction without drama.",
+      "scenes": [
+        "A modest kitchen table with two different placemats slightly askew, a tiny salt pot on its side and a few grains on the wood; a small everyday snag, nothing broken.",
+        "Close view of one place setting on the same table, folded rust napkin, glass of water and a bag set beside the chair; one person's ordinary context.",
+        "Close view from the other side of the same table, sage napkin and simple plate with crumbs, a coat on the other chair; another person's view without blame.",
+        "Wide view of the same table with both chairs slightly drawn back, glasses resting and a clear patch of tabletop between them, calm afternoon light; room for a pause, not abandonment.",
+        "The salt pot now upright, napkins still different and imperfectly folded, both chairs available at the table; a small possible adjustment, no perfect reconciliation.",
+        "Quiet closing tabletop detail of the upright salt pot, two distinct napkins and resting glasses in soft light; the conversation may rest while differences remain."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S09.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S09-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S09-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S09-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S09-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S09-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S09-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "6bc5cb4c322922b4ea4fb2c64e75e2fcdf3634a822955c3090cf29ade12f3a2c",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The small clash",
+          "question": "What small thing do we keep getting stuck on?",
+          "nudge": "Pick one everyday example. We do not need to list everything that has gone wrong.",
+          "image": "artwork/storyboards/editorial-v1/frames/S09-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "73f1b5a650265d1da48490e7401fc710e6ce53250c3cbea98c05fcf449412cda",
+          "bytes": 90476,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "Your side of it",
+          "question": "Think of the last time that came up. What mattered to you then?",
+          "nudge": "Talk about your own experience. I can share mine too.",
+          "image": "artwork/storyboards/editorial-v1/frames/S09-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "111cd32c91753f6bcbf9cc5b093828348d1c78cf8c24cffe62d9d6f0eb90a54e",
+          "bytes": 94454,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "The part I missed",
+          "question": "What do you wish I had understood in that moment?",
+          "nudge": "It might be a worry, a need, or what the rest of your day had been like.",
+          "image": "artwork/storyboards/editorial-v1/frames/S09-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 435,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "1bf4fdf668357c5b2f1b29222afe88698808b913fb26ee111e0ab91edd0c29c9",
+          "bytes": 87138,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "A way to pause",
+          "question": "What could we say if that talk starts to feel tense?",
+          "nudge": "A plain request for a break can be enough. We can choose a time to return to it.",
+          "image": "artwork/storyboards/editorial-v1/frames/S09-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 435,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "1f5a4c82ad02b7f4bf644160898275fd85e54041e1b32612866188bc4f3d2784",
+          "bytes": 96324,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "A possible next time",
+          "question": "What is one small thing we could try when that issue comes up again?",
+          "nudge": "Offer an idea. We do not have to settle it or make a promise tonight.",
+          "image": "artwork/storyboards/editorial-v1/frames/S09-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 855,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "f4fdc9cecdcbfa665d8b0d911e3f2000c498836f9ff86408d313453b43e23a5e",
+          "bytes": 89583,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep one thing you want me to understand. We can leave the issue open.",
+          "image": "artwork/storyboards/editorial-v1/frames/S09-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 855,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "ca9b611f5a420073bd1405d2f73048e00c450bfc22c3dcb30825e55949e9d2a7",
+          "bytes": 84086,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-5abe083b-8d05-471c-9c45-0362756721f2.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S09: The small thing we get stuck on. Recurring anchors: An ordinary kitchen table, two distinct place settings and a little salt pot; small friction without drama.\nPanel 1: A modest kitchen table with two different placemats slightly askew, a tiny salt pot on its side and a few grains on the wood; a small everyday snag, nothing broken.\nPanel 2: Close view of one place setting on the same table, folded rust napkin, glass of water and a bag set beside the chair; one person's ordinary context.\nPanel 3: Close view from the other side of the same table, sage napkin and simple plate with crumbs, a coat on the other chair; another person's view without blame.\nPanel 4: Wide view of the same table with both chairs slightly drawn back, glasses resting and a clear patch of tabletop between them, calm afternoon light; room for a pause, not abandonment.\nPanel 5: The salt pot now upright, napkins still different and imperfectly folded, both chairs available at the table; a small possible adjustment, no perfect reconciliation.\nPanel 6: Quiet closing tabletop detail of the upright salt pot, two distinct napkins and resting glasses in soft light; the conversation may rest while differences remain.\nTone: grounded ordinary life, gentle neutral light, no dramatic conflict, no luxury, no broken objects, no visual claim that disagreement is solved.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          627,
+          1254
+        ],
+        "y": [
+          0,
+          417,
+          833,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S10",
+      "title": "One small money choice",
+      "motif": "A cloth purse, plain grocery bag and worn tin; everyday choice and learned habits without wealth imagery.",
+      "scenes": [
+        "A simple cloth purse beside a small paper grocery bag with one pear and part of a plain loaf visible, on an ordinary kitchen table; a small money choice, no price tags.",
+        "Close view of the cloth purse and pear on a simple ceramic plate, beautifully observed everyday textures, warm grounded light; the personal meaning of a small choice.",
+        "A worn unlettered small tin box on an older wooden shelf beside the same cloth purse, subtle patina; a learned household money habit, no coins or banknotes.",
+        "The old tin box and the cloth purse side by side on today's modest table, box open but empty, soft daylight; deciding what still fits without a judgment.",
+        "A small clear table with two different everyday chairs, the closed purse set to one side, two plain water glasses; space for an equal conversation about money.",
+        "Closing still life of the cloth purse, worn tin and one pear with part of the folded grocery bag; grounded, calm, no piles of money, locks, calculators or financial symbols."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S10.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S10-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S10-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S10-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S10-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S10-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S10-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "45ab3287195dfcadf37c233edc5ee563a4c32c88c4afefb3aadcc0af85404275",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "A recent choice",
+          "question": "What small money choice have you made lately?",
+          "nudge": "Something you bought, saved for, went without, or chose to wait on.",
+          "image": "artwork/storyboards/editorial-v1/frames/S10-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "db8913dd16eca5d08539f6a0e90fb09a0f9029afd2364a64b5f71d119a8a1de0",
+          "bytes": 79465,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "What it meant",
+          "question": "Why did that money choice matter to you?",
+          "nudge": "Think of what you wanted, needed, enjoyed, or hoped to avoid.",
+          "image": "artwork/storyboards/editorial-v1/frames/S10-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "0bbbbc3337e7879f7bebfd9bf840d9d75e2da220b9c6848409be76f747b4003d",
+          "bytes": 78644,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "An old rule",
+          "question": "What rule about money did you grow up with?",
+          "nudge": "Something people said or did. You can share only the part you feel okay sharing.",
+          "image": "artwork/storyboards/editorial-v1/frames/S10-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 434,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "538b1818886521e0cdb58d92db367f987257ba1f6c35b315ae9cb6c49d2e27a8",
+          "bytes": 83548,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "What still fits",
+          "question": "Which part of that old money rule still fits your life?",
+          "nudge": "Some, all, or none of it may fit. You can have your own way now.",
+          "image": "artwork/storyboards/editorial-v1/frames/S10-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 434,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "6904c9f7c4a5f2aebadbd879fc5b493387d427b28f2fa253ca7895ce900ac6d5",
+          "bytes": 77263,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "Talking now",
+          "question": "How would you like us to talk about a money choice like this?",
+          "nudge": "Think of a time, a tone, or a way to ask that would help you feel heard.",
+          "image": "artwork/storyboards/editorial-v1/frames/S10-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 854,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "0e57ac5bc6e553ef07beec4e0fa67cea2cdc84cd8604fd73fd1ba17c6d9762c2",
+          "bytes": 82656,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep one thing you want me to understand about money. No budget needed tonight.",
+          "image": "artwork/storyboards/editorial-v1/frames/S10-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 854,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "2e035f5ebbb0bd029baf2c2cb647b1aadff961effc023db8ae01b752117be201",
+          "bytes": 82974,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-e314b9f6-d108-46e1-ba4d-41f45d40b776.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S10: One small money choice. Recurring anchors: A cloth purse, plain grocery bag and worn tin; everyday choice and learned habits without wealth imagery.\nPanel 1: A simple cloth purse beside a small paper grocery bag with one pear and part of a plain loaf visible, on an ordinary kitchen table; a small money choice, no price tags.\nPanel 2: Close view of the cloth purse and pear on a simple ceramic plate, beautifully observed everyday textures, warm grounded light; the personal meaning of a small choice.\nPanel 3: A worn unlettered small tin box on an older wooden shelf beside the same cloth purse, subtle patina; a learned household money habit, no coins or banknotes.\nPanel 4: The old tin box and the cloth purse side by side on today's modest table, box open but empty, soft daylight; deciding what still fits without a judgment.\nPanel 5: A small clear table with two different everyday chairs, the closed purse set to one side, two plain water glasses; space for an equal conversation about money.\nPanel 6: Closing still life of the cloth purse, worn tin and one pear with part of the folded grocery bag; grounded, calm, no piles of money, locks, calculators or financial symbols.\nTone: grounded ordinary life, gentle neutral light, no dramatic conflict, no luxury, no broken objects, no visual claim that disagreement is solved.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          627,
+          1254
+        ],
+        "y": [
+          0,
+          417,
+          831,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S11",
+      "title": "A Saturday just for us",
+      "motif": "An open window, picnic cloth and simple kite; a free day with room for a silly turn.",
+      "scenes": [
+        "A sunlit open kitchen window above a modest breakfast of toast and two mugs, a loosely folded sage picnic cloth on the sill; a slow free morning.",
+        "An empty inviting local park bench beneath leafy branches, the same sage picnic cloth and a small basket resting nearby; the day opening up, no travel luxury.",
+        "A simple homemade lavender-and-ochre kite resting sideways in the grass beside a partly unwrapped snack, string in a loose curl; a silly playful detour, no people.",
+        "The same park bench at soft golden dusk, cloth folded on the seat, quiet leaves and warm sky; the imagined day winding down.",
+        "Close tabletop view back at home of the sage picnic cloth, simple kite string spool and a small snack, one piece of the day easy to try.",
+        "Closing gathered arrangement of picnic cloth, little kite, snack basket and a leaf on warmly textured paper; an imagined Saturday kept lightly."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S11.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S11-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S11-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S11-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S11-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S11-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S11-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "bd140a682e65c7a8bc987a612805cccaa7908008c156187e818b0acfa83e2204",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The morning",
+          "question": "If we had a whole Saturday free, how would you like to start it with me?",
+          "nudge": "Sleeping late, breakfast, a walk, or doing very little all count.",
+          "image": "artwork/storyboards/editorial-v1/frames/S11-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 15,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "86c6c2214225022cbccaaf134a58ec70680c07e944b4c3d8345b959310d8e8fd",
+          "bytes": 99842,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "The day opens up",
+          "question": "Where would you like our free Saturday to take us next?",
+          "nudge": "Somewhere close, somewhere new, or another room at home.",
+          "image": "artwork/storyboards/editorial-v1/frames/S11-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 15,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "f04f139ebbcda0c048099c35b828169806eedc82476c28aa376f5102691df7ce",
+          "bytes": 117695,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "A silly turn",
+          "question": "What silly thing could we add to our Saturday just for fun?",
+          "nudge": "A bad film, a made-up game, or a snack we have never tried.",
+          "image": "artwork/storyboards/editorial-v1/frames/S11-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 436,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "76c78960e7c2dab88efeb3a3d7f45ef245f4c45adc8f0bb90061550b2706d746",
+          "bytes": 121620,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "The evening",
+          "question": "How would you like our free Saturday to end?",
+          "nudge": "Picture the place and what we would be doing as the day slows down.",
+          "image": "artwork/storyboards/editorial-v1/frames/S11-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 436,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "707f80a4d3b6aa03639f03d32ba853a6be12b9cf82d23d65cd463d044b78d450",
+          "bytes": 106249,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "A piece for real",
+          "question": "Which small part of our made-up Saturday would you like to try?",
+          "nudge": "One piece can be enough. We do not need a whole free day.",
+          "image": "artwork/storyboards/editorial-v1/frames/S11-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 857,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c3e05361a92013a51b4c50e723b1a6088af4f71152f4ff928effbce060c18006",
+          "bytes": 87578,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep one scene from our made-up Saturday.",
+          "image": "artwork/storyboards/editorial-v1/frames/S11-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 857,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "e94098022128a2473d8847113080631bd36e2dad7412386f1fe9b68abe3b0087",
+          "bytes": 97530,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-5e7eb2fe-a235-43d5-94f5-5193530c443b.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S11: A Saturday just for us. Recurring anchors: An open window, picnic cloth and simple kite; a free day with room for a silly turn.\nPanel 1: A sunlit open kitchen window above a modest breakfast of toast and two mugs, a loosely folded sage picnic cloth on the sill; a slow free morning.\nPanel 2: An empty inviting local park bench beneath leafy branches, the same sage picnic cloth and a small basket resting nearby; the day opening up, no travel luxury.\nPanel 3: A simple homemade lavender-and-ochre kite resting sideways in the grass beside a partly unwrapped snack, string in a loose curl; a silly playful detour, no people.\nPanel 4: The same park bench at soft golden dusk, cloth folded on the seat, quiet leaves and warm sky; the imagined day winding down.\nPanel 5: Close tabletop view back at home of the sage picnic cloth, simple kite string spool and a small snack, one piece of the day easy to try.\nPanel 6: Closing gathered arrangement of picnic cloth, little kite, snack basket and a leaf on warmly textured paper; an imagined Saturday kept lightly.\nKeep the humor gentle and the activity modest, tactile and adult. Vary framing so every question has a clearly distinct scene.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          626,
+          1254
+        ],
+        "y": [
+          0,
+          415,
+          837,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S12",
+      "title": "Our first try",
+      "motif": "Two small lumps of clay, simple tools and delightfully uneven little pots; room to be beginners.",
+      "scenes": [
+        "A simple worktable with two small lumps of natural clay, a plain wooden rolling pin and little water bowl, soft daylight; curiosity about a first try.",
+        "Closer view of the same clay on two small wooden boards with the tools between them, a few damp fingerprints in the clay but no hands; the first minutes.",
+        "Two comically uneven little clay pots, one squat and one leaning a little, harmless splashes and a wooden tool nearby; gentle adult humor, not damage.",
+        "Medium view of the two clay boards with tools within reach of both and a damp sponge in the middle, the uneven pots still present; help available without taking over.",
+        "One small partly formed clay bowl beside the original clay and simple tools, visibly handmade and unfinished rather than a perfect result; an easy small first attempt.",
+        "Closing still life of the two delightfully wonky clay pots, rolling pin, sponge and water bowl; soft light, room to have enjoyed being beginners."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S12.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S12-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S12-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S12-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S12-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S12-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S12-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "b7ab2c48c9f989a12f189c2a623756055a70ba6c88baf84a0ecc8dbf902b023b",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The idea",
+          "question": "What new thing would you like to try with me?",
+          "nudge": "It can be close to home, free, and small enough to try once.",
+          "image": "artwork/storyboards/editorial-v1/frames/S12-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 17,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "703f7bce92bf624744c90366f9131ca022af3f3a2aa44e54c65a8c918c994323",
+          "bytes": 94745,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "The first few minutes",
+          "question": "Picture us trying that new thing. What part would you look forward to?",
+          "nudge": "The thing itself, a change of scene, or seeing a new side of me.",
+          "image": "artwork/storyboards/editorial-v1/frames/S12-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 17,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "486f40ca333c8192ad5d88ef647c61e737eeb435a36f5b486c45d4bdc4d3b0fc",
+          "bytes": 93808,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "Being bad at it",
+          "question": "If our first try went badly, what could make it fun anyway?",
+          "nudge": "We can laugh, slow down, change the idea, or stop.",
+          "image": "artwork/storyboards/editorial-v1/frames/S12-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 430,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "d731952811dace80ddd91751d5c5b6eaf7e0e9485ab23dc87cef758af761e2d3",
+          "bytes": 76209,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "Welcome help",
+          "question": "When you try something new, what kind of help do you like from me?",
+          "nudge": "A tip, a cheer, company, or room to work it out yourself.",
+          "image": "artwork/storyboards/editorial-v1/frames/S12-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 430,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "3a7ff6cfd68d37511949de801be97ae2702fba9045697cec2e209a7a47c91901",
+          "bytes": 91592,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "A small version",
+          "question": "What would a small first try of our idea look like?",
+          "nudge": "Make it easy to try and easy to leave. It does not have to become a hobby.",
+          "image": "artwork/storyboards/editorial-v1/frames/S12-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 850,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "5c01e2705c425a5e7ea4afd88eb748e6299617c89875e44932eca0a348bb3532",
+          "bytes": 81469,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep our idea for a first try. It can stay an idea.",
+          "image": "artwork/storyboards/editorial-v1/frames/S12-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 850,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "3a96eb3e1c14a2821f06b6526a9e2dfa15ac9761cf59c9348caf2613770cef0c",
+          "bytes": 83882,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-bc865609-c225-4393-9f9d-e3a578aaebfa.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S12: Our first try. Recurring anchors: Two small lumps of clay, simple tools and delightfully uneven little pots; room to be beginners.\nPanel 1: A simple worktable with two small lumps of natural clay, a plain wooden rolling pin and little water bowl, soft daylight; curiosity about a first try.\nPanel 2: Closer view of the same clay on two small wooden boards with the tools between them, a few damp fingerprints in the clay but no hands; the first minutes.\nPanel 3: Two comically uneven little clay pots, one squat and one leaning a little, harmless splashes and a wooden tool nearby; gentle adult humor, not damage.\nPanel 4: Medium view of the two clay boards with tools within reach of both and a damp sponge in the middle, the uneven pots still present; help available without taking over.\nPanel 5: One small partly formed clay bowl beside the original clay and simple tools, visibly handmade and unfinished rather than a perfect result; an easy small first attempt.\nPanel 6: Closing still life of the two delightfully wonky clay pots, rolling pin, sponge and water bowl; soft light, room to have enjoyed being beginners.\nKeep the humor gentle and the activity modest, tactile and adult. Vary framing so every question has a clearly distinct scene.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          626,
+          1254
+        ],
+        "y": [
+          0,
+          418,
+          822,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S13",
+      "title": "A dream with no due date",
+      "motif": "A personal sketchbook, old paint box and one brush; a wish held lightly, without a deadline.",
+      "scenes": [
+        "A closed unlettered sketchbook and a small worn watercolor paint box on a quiet shelf beside a window, a single brush resting across them; a personal wish waiting.",
+        "The same sketchbook open on a small desk by the window, blank paper and open paint box, soft morning light; one ordinary day inside a dream.",
+        "Close scene of a few loose sage and lavender color washes on the unlettered page, a water jar and the single brush; pleasure, freedom and a little room to learn.",
+        "Wide view of the personal painting desk with one chair and a separate simple chair nearby, neither occupied; company available while the dream stays personal.",
+        "A single brush beside one clean blank sheet and the closed paint box on the desk, soft open window light; one optional tiny step, no checklist or clock.",
+        "Closing arrangement of the closed sketchbook, old paint box, single brush and open window light; warm open possibility without a promised outcome."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S13.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S13-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S13-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S13-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S13-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S13-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S13-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "9d15dd4af770897fca90b2eceedbab3bbe1bf52a63f7f3970fc4153e2bd59df6",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The wish",
+          "question": "What is something you would love to do one day?",
+          "nudge": "A small wish counts. It does not have to be something we do together.",
+          "image": "artwork/storyboards/editorial-v1/frames/S13-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 15,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "063246bd3773fe45a9492f2df2e8a07bba0d221ba7e9b824b5a210ea9f568d59",
+          "bytes": 103085,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "Inside the dream",
+          "question": "Picture a day when that dream is real. What are you doing?",
+          "nudge": "Start with one ordinary detail: where you are, what you see, or how your day begins.",
+          "image": "artwork/storyboards/editorial-v1/frames/S13-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 15,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "2c70ca8cd393772f7e17c7d7602dac1b11362b6837a5247d54263e1be5461480",
+          "bytes": 93468,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "What it offers",
+          "question": "What do you hope that dream would add to your life?",
+          "nudge": "More fun, rest, freedom, time to learn, or something that is hard to name.",
+          "image": "artwork/storyboards/editorial-v1/frames/S13-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 433,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "cb4c0f0d76c7a0e5db9fb1c6c229f03009dc6a5e8597e590735a7e0649b5f2b6",
+          "bytes": 86603,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "My part",
+          "question": "What would you like from me while you think about that dream?",
+          "nudge": "Listening, interest, practical help, or letting the idea rest can all count.",
+          "image": "artwork/storyboards/editorial-v1/frames/S13-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 433,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "dc2bdd62544d834b03be5abaefffb17ac6f75063b8f5fad8d43605ac3429f8c7",
+          "bytes": 96788,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "Only if you want",
+          "question": "What small step, if any, would you like to take toward that dream?",
+          "nudge": "Looking something up, talking more, or doing nothing for now are all possible.",
+          "image": "artwork/storyboards/editorial-v1/frames/S13-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 855,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "369d2edd9c79f76e2e13f4a03b8708babfcfcff6e86b87e2ddb93d87a7dd043f",
+          "bytes": 86050,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep a few words about the dream. We can leave the date blank.",
+          "image": "artwork/storyboards/editorial-v1/frames/S13-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 855,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "0c775659edbe70467f570e5d3eb1f140d79ca3a9b651392c075f3df9a14a8871",
+          "bytes": 104308,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-3a93d3ec-e3c4-434c-a89e-2c95de15bcd3.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S13: A dream with no due date. Recurring anchors: A personal sketchbook, old paint box and one brush; a wish held lightly, without a deadline.\nPanel 1: A closed unlettered sketchbook and a small worn watercolor paint box on a quiet shelf beside a window, a single brush resting across them; a personal wish waiting.\nPanel 2: The same sketchbook open on a small desk by the window, blank paper and open paint box, soft morning light; one ordinary day inside a dream.\nPanel 3: Close scene of a few loose sage and lavender color washes on the unlettered page, a water jar and the single brush; pleasure, freedom and a little room to learn.\nPanel 4: Wide view of the personal painting desk with one chair and a separate simple chair nearby, neither occupied; company available while the dream stays personal.\nPanel 5: A single brush beside one clean blank sheet and the closed paint box on the desk, soft open window light; one optional tiny step, no checklist or clock.\nPanel 6: Closing arrangement of the closed sketchbook, old paint box, single brush and open window light; warm open possibility without a promised outcome.\nMake these future-looking scenes calm and open-ended. Warm personal space must not look lonely; no deadlines, checklist, successful transformation, tied bow, locked door or prescribed outcome.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          626,
+          1254
+        ],
+        "y": [
+          0,
+          414,
+          832,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S14",
+      "title": "Time to be me",
+      "motif": "A reading chair, blank-paged book and quiet window; personal time that feels warm rather than lonely.",
+      "scenes": [
+        "A comfortable worn reading chair with a plain unlettered book resting open and soft headphones on a side table, gentle daylight; something of one's own.",
+        "Close view of the book's entirely unlettered pages and a small bookmark of plain cloth, dappled window light and the chair's soft texture; time that feels one's own.",
+        "The book partly tucked under a small folded laundry pile on the side table, plain keys and headphones nearby; ordinary demands competing for time without clutter or gloom.",
+        "Wide warm view of the reading chair by the window with comfortable empty floor around it, a small side table and open doorway in the distance; a need for room expressed gently.",
+        "The side table now has a small clear space for the open blank-paged book and headphones, laundry moved to a neat basket nearby; a modest pocket of time, no grand transformation.",
+        "Closing view of the reading chair, open book and headphones in a quiet patch of afternoon light; calm personal space that remains part of a welcoming home."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S14.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S14-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S14-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S14-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S14-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S14-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S14-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "78449cda80ac75a9499e5e0e09ab292dc9d4609989ef664e43aa6cd84e951487",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "Something of your own",
+          "question": "What do you enjoy doing on your own these days?",
+          "nudge": "It can be something you miss doing, from reading to seeing a friend without me.",
+          "image": "artwork/storyboards/editorial-v1/frames/S14-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "46d7690631ac4d15b14164bfd52964c94f028daf8a0bc34072066a770f95cf49",
+          "bytes": 103118,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "How it feels",
+          "question": "What do you like about having that time for yourself?",
+          "nudge": "Think of how you feel during it or after it. Missing it can be part of your answer.",
+          "image": "artwork/storyboards/editorial-v1/frames/S14-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 16,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "53bcb7376b528fef955b3400f35f658eb9e8de1e2085e932e78efbae28fdb1c0",
+          "bytes": 79177,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "What gets in the way",
+          "question": "What tends to get in the way of time for yourself?",
+          "nudge": "A full day, care for others, cost, tiredness, or finding it hard to ask.",
+          "image": "artwork/storyboards/editorial-v1/frames/S14-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 430,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "7ea07a44e143ec0309f4a31915ade49fca1960fc842dd73d83d0f441c12b0a48",
+          "bytes": 93672,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "What I should know",
+          "question": "What would you like me to know about your need for time on your own?",
+          "nudge": "Explain what it means to you. We can have different needs.",
+          "image": "artwork/storyboards/editorial-v1/frames/S14-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 430,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "22f1893d5bab947a02c487b7e01ffcf34a9351294d6cbacccf3ae3e4cbff404c",
+          "bytes": 98603,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "A little room",
+          "question": "What bit of time would you like for yourself in the days ahead?",
+          "nudge": "A few minutes can count. This is a wish to share, not a promise to make tonight.",
+          "image": "artwork/storyboards/editorial-v1/frames/S14-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 850,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "9e5c04939370801e5d8d9e9c793c6ef4787e20acb02476e8103a5351f8fad30a",
+          "bytes": 95766,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep a few words about a part of you that needs some room.",
+          "image": "artwork/storyboards/editorial-v1/frames/S14-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 850,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "f9ed12515b08268f9b0f3d7dd24b00882a893409873e1ef864b080170b6ab88b",
+          "bytes": 99903,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-53e02da2-e798-4c95-b010-bc716d4a7ab8.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S14: Time to be me. Recurring anchors: A reading chair, blank-paged book and quiet window; personal time that feels warm rather than lonely.\nPanel 1: A comfortable worn reading chair with a plain unlettered book resting open and soft headphones on a side table, gentle daylight; something of one's own.\nPanel 2: Close view of the book's entirely unlettered pages and a small bookmark of plain cloth, dappled window light and the chair's soft texture; time that feels one's own.\nPanel 3: The book partly tucked under a small folded laundry pile on the side table, plain keys and headphones nearby; ordinary demands competing for time without clutter or gloom.\nPanel 4: Wide warm view of the reading chair by the window with comfortable empty floor around it, a small side table and open doorway in the distance; a need for room expressed gently.\nPanel 5: The side table now has a small clear space for the open blank-paged book and headphones, laundry moved to a neat basket nearby; a modest pocket of time, no grand transformation.\nPanel 6: Closing view of the reading chair, open book and headphones in a quiet patch of afternoon light; calm personal space that remains part of a welcoming home.\nMake these future-looking scenes calm and open-ended. Warm personal space must not look lonely; no deadlines, checklist, successful transformation, tied bow, locked door or prescribed outcome.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          627,
+          1254
+        ],
+        "y": [
+          0,
+          417,
+          823,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    },
+    {
+      "id": "S15",
+      "title": "A change we can see coming",
+      "motif": "An open unlettered packing box, canvas bag and potted rosemary; continuity through an unfinished change.",
+      "scenes": [
+        "One open plain cardboard box beside a window, a small potted rosemary plant and folded sage cloth nearby, ordinary room in morning light; a change on the mind.",
+        "A slightly rearranged modest room with the same rosemary plant on a new windowsill and the open box still near a chair; imagining an ordinary day after change.",
+        "Close view of the familiar rosemary plant and folded sage cloth on a small table, soft light and the same everyday ceramic bowl nearby; a familiar thing worth keeping.",
+        "The open box near an ajar interior door, patches of light and gentle shadow, contents only partly arranged; uncertainty allowed, no storm, crisis or dramatic symbolism.",
+        "The canvas bag set beside the open box with cloth neatly within reach and a clear path through the room; quiet practical support, no helpers or people shown.",
+        "Closing still life of the rosemary plant, folded sage cloth and still-open box by a warm window; settled light with the change unfinished, no ribbon or final verdict."
+      ],
+      "master": "artwork/storyboards/editorial-v1/masters/S15.png",
+      "frames": [
+        "artwork/storyboards/editorial-v1/frames/S15-01.jpg",
+        "artwork/storyboards/editorial-v1/frames/S15-02.jpg",
+        "artwork/storyboards/editorial-v1/frames/S15-03.jpg",
+        "artwork/storyboards/editorial-v1/frames/S15-04.jpg",
+        "artwork/storyboards/editorial-v1/frames/S15-05.jpg",
+        "artwork/storyboards/editorial-v1/frames/S15-06.jpg"
+      ],
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sourceSha256": "2ef3724dbbf0d2eb05ac6fb2ecf4a82e91182f14c2539e0636b57531a79a2b86",
+      "frameSize": {
+        "width": 570,
+        "height": 380
+      },
+      "chapters": [
+        {
+          "position": 0,
+          "role": "question",
+          "chapter": "The change",
+          "question": "What change in your life has been on your mind lately?",
+          "nudge": "Something definite or something that might happen can both count.",
+          "image": "artwork/storyboards/editorial-v1/frames/S15-01.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 13,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "b167d9f608fef5ce72ed8c03059139317982256824fd646d383bdb413023c01c",
+          "bytes": 86651,
+          "reveal": "arrive"
+        },
+        {
+          "position": 1,
+          "role": "question",
+          "chapter": "A day after it",
+          "question": "What might a normal day look like after that change?",
+          "nudge": "Picture one part of the day. You do not need to predict it all.",
+          "image": "artwork/storyboards/editorial-v1/frames/S15-02.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 13,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "b828745dc975244d0a8fa7afe04e278e919444d6ff87e392dc68da002f36d7e3",
+          "bytes": 86468,
+          "reveal": "unfold"
+        },
+        {
+          "position": 2,
+          "role": "question",
+          "chapter": "What to keep",
+          "question": "As life changes, what would you like us to keep making time for?",
+          "nudge": "A call, a shared meal, a joke, or a quiet moment can be enough.",
+          "image": "artwork/storyboards/editorial-v1/frames/S15-03.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 426,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "c5a444fd87fcf644b717957470f73abdcc6454bf10fb0d514fb47e0bc052c366",
+          "bytes": 89415,
+          "reveal": "glow"
+        },
+        {
+          "position": 3,
+          "role": "question",
+          "chapter": "The unknown part",
+          "question": "What feels hard to know about that change right now?",
+          "nudge": "It is okay to have mixed feelings or no clear answer.",
+          "image": "artwork/storyboards/editorial-v1/frames/S15-04.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 426,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "d4543c785d2ce3b736207ff78e4b9f3ecd2ed426fd92a45c54469ee30105888d",
+          "bytes": 80919,
+          "reveal": "open"
+        },
+        {
+          "position": 4,
+          "role": "question",
+          "chapter": "Being there",
+          "question": "What kind of support from me would feel good as things change?",
+          "nudge": "Listening, checking in, practical help, or giving you room to work things out.",
+          "image": "artwork/storyboards/editorial-v1/frames/S15-05.jpg",
+          "sourceCrop": {
+            "x": 26,
+            "y": 850,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "8b686ab23e32367e6fcdc196d69a02287ca4537d4fcc7ef62ce2a945d75f45c6",
+          "bytes": 88862,
+          "reveal": "gather"
+        },
+        {
+          "position": 5,
+          "role": "closing",
+          "chapter": "Take this with us",
+          "question": "If you like, keep one way we can be there for each other. The rest can stay open.",
+          "image": "artwork/storyboards/editorial-v1/frames/S15-06.jpg",
+          "sourceCrop": {
+            "x": 657,
+            "y": 850,
+            "width": 570,
+            "height": 380
+          },
+          "sha256": "08d6a402df13433a8631e23ffd8c333dc6b211e297059440cc7b388be2701094",
+          "bytes": 81406,
+          "reveal": "settle"
+        }
+      ],
+      "generation": {
+        "tool": "Built-in image_gen",
+        "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-adc552a5-611a-445a-a4f4-eeab3fd6f75a.png",
+        "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStrictly empty settings: no human figures or silhouettes anywhere, including tiny distant pedestrians. Books, notes and maps must be entirely free of writing or glyphs.\nStory S15: A change we can see coming. Recurring anchors: An open unlettered packing box, canvas bag and potted rosemary; continuity through an unfinished change.\nPanel 1: One open plain cardboard box beside a window, a small potted rosemary plant and folded sage cloth nearby, ordinary room in morning light; a change on the mind.\nPanel 2: A slightly rearranged modest room with the same rosemary plant on a new windowsill and the open box still near a chair; imagining an ordinary day after change.\nPanel 3: Close view of the familiar rosemary plant and folded sage cloth on a small table, soft light and the same everyday ceramic bowl nearby; a familiar thing worth keeping.\nPanel 4: The open box near an ajar interior door, patches of light and gentle shadow, contents only partly arranged; uncertainty allowed, no storm, crisis or dramatic symbolism.\nPanel 5: The canvas bag set beside the open box with cloth neatly within reach and a clear path through the room; quiet practical support, no helpers or people shown.\nPanel 6: Closing still life of the rosemary plant, folded sage cloth and still-open box by a warm window; settled light with the change unfinished, no ribbon or final verdict.\nMake these future-looking scenes calm and open-ended. Warm personal space must not look lonely; no deadlines, checklist, successful transformation, tied bow, locked door or prescribed outcome.",
+        "edit": false
+      },
+      "gridCuts": {
+        "x": [
+          0,
+          626,
+          1254
+        ],
+        "y": [
+          0,
+          411,
+          822,
+          1254
+        ],
+        "review": "Paper-gap coordinates reviewed against source sheet; 4 px interior boundary clearance."
+      }
+    }
+  ],
+  "export": {
+    "tool": "node scripts/export-editorial-art.cjs (pngjs + macOS sips)",
+    "frameCount": 90,
+    "totalFrameBytes": 8178169,
+    "jpegQuality": 74,
+    "color": "Converted to sRGB Profile.icc with macOS sips",
+    "upscale": false,
+    "crop": "570×380 from reviewed paper-gap bounds; exact crop recorded per frame",
+    "contentVersion": "English editorial draft 0.1",
+    "review": "Static source-sheet and frame inspection; native appearance, accessibility and independent layers unverified."
+  },
+  "sourceHistory": {
+    "S01": {
+      "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-8e2956ee-bcdf-4beb-9f2d-d9b8ec2be37e.png",
+      "saved": "artwork/storyboards/editorial-v1/masters/S01-original.png",
+      "prompt": "Use case: illustration-story.\nAsset: a six-panel watercolor storyboard for InnerUs, an adult relationship conversation app.\nFORMAT: one SQUARE image, ideally 1536 x 1536 pixels. Exactly TWO equal columns by THREE equal rows. Six independent LANDSCAPE panels, each 3:2 aspect ratio, row-major order (top left, top right, middle left, middle right, bottom left, bottom right). No dividers, no gutters, no panel borders. All panels have the same warm ivory cold-pressed paper ground. No object crosses a cell boundary.\nSTYLE: sophisticated hand-painted editorial watercolor, luminous layered transparent pigment, slightly irregular pencil contours, tactile paper grain, richly observed everyday objects. Feathered irregular wash edges melt into ivory paper. Color: sage and deep forest green, soft terracotta, muted lavender, warm plum shadows, butter-yellow light. Intimate, believable, warm and adult; match a fine watercolor of an old European cafe window. Not flat vector, not cartoon, not photorealistic, not glossy.\nCOMPOSITION: paint a different concrete scene in each panel. Balanced wide framing; recognizable primary subject at mobile size; main objects in the middle 80% of panel width and upper-middle 70% of height, with a thin soft paper edge. Enough setting to feel like a scene rather than isolated clipart. Avoid excessive empty margins and tiny centered objects. Lower pigment edges naturally dissolve for app text below. Vary wide scene, medium scene and close detail as specified; preserve recurring prop design and palette across the six panels. No captions, words, letters, numbers, handwriting, logos, UI, watermarks, people, faces, body parts, hearts, rings, stereotyped gender cues or puzzle-piece metaphors. All scenes are fictional illustrations, not memories of real people.\n\nStory S01: Before we said hello. Recurring anchors: a soft lavender scarf, a sage-green cafe door, mismatched rust and green ceramic cups, a small vase with just three daisies. Make the progression from anticipation to an open possibility, with natural daylight changing to dusk.\nPanel 1: wide quiet green cafe frontage before a date, two empty bentwood chairs at a little round table, mellow late-afternoon light and a hint of cobblestone street; anticipation.\nPanel 2: intimate getting-ready still life, lavender scarf draped over a simple wooden chair beside an unmarked mirror and a coat on a hook, no shoes or wardrobe gender cues; personal preparation.\nPanel 3: view through the cafe doorway just ajar, the little table and two cups visible beyond, inviting light; the first hello without depicting people.\nPanel 4: close tabletop view of the same cups now partly drunk, three daisies, a few crumbs on a small plate, late warm light; one real moment shared.\nPanel 5: wide doorway at blue-lavender dusk, cafe light behind, lavender scarf now folded over the chair near the exit, a quiet street continuing out of frame; the date ending with room for what comes next.\nPanel 6: quiet gathered closing still life of the two cups, lavender scarf and three daisies on a softly painted cafe tabletop; warm resting composition, no implied promise.",
+      "status": "Unselected original: tiny distant pedestrians removed in targeted final edit."
+    }
+  },
+  "optimizationBaseline": {
+    "description": "Initial equal-grid export, before boundary correction and final compression; retained for size comparison only.",
+    "frameSize": {
+      "width": 627,
+      "height": 418
+    },
+    "jpegQuality": 80,
+    "totalFrameBytes": 10509763
+  },
+  "ownerReview": {
+    "date": "2026-10-23",
+    "status": "rejected",
+    "reason": "Generic and repetitive cups/cutlery/room visuals; each question needs a unique recognizable image tied to its own meaning.",
+    "supersededBy": "artwork/storyboards/editorial-v2/manifest.json"
+  }
+}

@@ -1,0 +1,13 @@
+InnerUs question-specific imagery revision 2 — 23 October 2026
+PASS: 15 stories; 75 question images and 15 closing images.
+PASS: 90 distinct image hashes and independently written visual briefs; exact English questions/closings match the editorial draft.
+PASS: 15 exact generation prompt/source records and 3 targeted-edit records; final masters match selected built-in image_gen sources; pre-edit originals retained.
+PASS: all 90 files are 552×368 JPEGs with sRGB IEC61966-2.1 profiles; bytes/hashes/source crop bounds match manifest; no upscaling.
+PASS: 7,050,720 frame bytes / 6.72 MiB.
+PASS: 90 review image paths exist; embedded exact-question data matches; inline script compiles; no remote URLs/dependencies.
+PASS: question-map.md pairs all 90 existing images with exact question/closing text.
+PASS: previous editorial-v1 remains marked owner-rejected; v2 owner approval remains pending.
+Visual review: all 15 generated source sheets and all 90 crops inspected through direct images/contact sheets. Updated final S04-04 and S13-06 crops and S01-02/S08-04/S12-03 examples inspected after final export.
+Targeted corrections: S08 question 3 respects space at equal eye level; S04 question 4 shows the actual familiar greeting; S13 closing leaves a closed case available.
+Review limits: recognition is agent editorial judgment, not reader testing. Prior browser file-URL policy rejection was respected; no workaround or live browser review attempted.
+Scope: local artwork/export/documentation only. Runtime catalogue/session/access/Quick integration, Dutch review, native cropping/dark/accessibility review and independent layers remain pending. No app tests/builds, platform capability claims or acceptance promotion.

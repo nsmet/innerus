@@ -1,0 +1,9 @@
+{
+  "id": "S08",
+  "tool": "Built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit ONLY the middle-left panel (panel 3) in this square two-column, three-row watercolor storyboard. The question is 'At what times would you rather have some space from touch?' Show both adult partners seated separately at the SAME eye level, with comfortable room between them. The tired adult gently lifts an open palm asking for space; the other adult sits back with hands resting on their own knees and a relaxed respectful expression. Neither person stands over or looms over the other. No fear, anger, touching, guilt, pleading or power imbalance. Keep their existing hair/clothes, the room's watercolor style and paper-edge treatment. Preserve the other FIVE panels, their compositions, colors, people, hands, objects, dimensions and exact six-panel layout unchanged. No new captions, words, symbols, cups or decorative props.",
+  "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-7b596905-94c4-4529-a8a0-49c500fcf787.png",
+  "target": "artwork/storyboards/editorial-v2/masters/S08-before-space-edit.png",
+  "master": "artwork/storyboards/editorial-v2/masters/S08.png",
+  "reason": "Ask-for-space scene should show equal eye level and a respected request."
+}

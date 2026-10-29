@@ -1,0 +1,36 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "node": "22.22.0",
+      "env": {
+        "APP_VARIANT": "development",
+        "EXPO_NO_TELEMETRY": "1",
+        "EXPO_PUBLIC_INNERUS_VARIANT": "development"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "node": "22.22.0",
+      "env": {
+        "APP_VARIANT": "production",
+        "INNERUS_STOREKIT": "0",
+        "EXPO_NO_TELEMETRY": "1",
+        "EXPO_PUBLIC_INNERUS_VARIANT": "production"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./credentials/play-service-account.json",
+        "track": "internal"
+      }
+    }
+  }
+}

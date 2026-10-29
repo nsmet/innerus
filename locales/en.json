@@ -1,0 +1,5 @@
+{
+  "NSMicrophoneUsageDescription": "InnerUs uses the microphone to record an answer only when you choose to record.",
+  "NSSpeechRecognitionUsageDescription": "InnerUs uses on-device speech recognition to turn your selected recording into editable text when supported.",
+  "NSFaceIDUsageDescription": "InnerUs can use Face ID to keep your moments private when you turn on App lock."
+}

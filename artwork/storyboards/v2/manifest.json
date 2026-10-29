@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-23",
+  "generator": "Built-in image_gen",
+  "revision": "story-v2",
+  "approval": "Generated and visually inspected; owner/native review pending. Flat chapter frames; independent transparent props remain a production gate.",
+  "sharedPrompt": "Use case: illustration-story. Asset: one production watercolor storyboard atlas for InnerUs, an adult couples conversation app. Create a landscape image 1536 by 1024, arranged as EXACTLY 3 equal columns and 2 equal rows, six separate landscape vignettes in row-major order. Each cell is its own 512 by 512 canvas; keep every object inside central 80% of its cell with generous warm ivory paper margins. No borders, gutters, captions, numbers, text, letters, UI, people, hearts or icons. Genuine delicate hand-painted watercolor: luminous translucent washes, irregular feathered pigment edges, visible ivory cold-pressed paper, subtle pencil detail. Rich but restrained aubergine, sage, muted lavender, terracotta and butter-yellow light. Match an intimate editorial watercolor of two ceramic cups at a green-framed cafe window; painterly, sophisticated, warm, not photorealistic, not cartoon. Six coherent compositions sharing recurring objects, light moving naturally through the story. Objects are fictional invitations, not memories of real users. Distinct meaningful composition per cell, readable at phone size. ",
+  "sources": [
+    {
+      "id": "A01",
+      "direction": "Story A01: Our first date. Cell 1: quiet green-framed cafe window before opening, two empty bentwood chairs and distant early evening glow, anticipation. Cell 2: a lavender scarf draped over a chair, simple terracotta coat on a hook and shoes by a door, getting ready, intimate object still life. Cell 3: view across a cafe threshold, one terracotta cup beside a sage patterned cup, first glimpse, soft golden light. Cell 4: close still life of those two cups on a small round cafe table, a tiny vase of white daisies, crumpled plain receipt without marks, conversation underway. Cell 5: cafe doorway at twilight, coat now lifted from chair, two cup saucers left on table, lantern outside, the goodbye. Cell 6: gathered closing still life of the lavender scarf, two cups and daisies on warm ivory paper, quiet memory.",
+      "master": "artwork/storyboards/v2/A01.png",
+      "frames": [
+        "assets/art/stories/A01-01.jpg",
+        "assets/art/stories/A01-02.jpg",
+        "assets/art/stories/A01-03.jpg",
+        "assets/art/stories/A01-04.jpg",
+        "assets/art/stories/A01-05.jpg",
+        "assets/art/stories/A01-06.jpg"
+      ]
+    },
+    {
+      "id": "A02",
+      "direction": "A place we would go back to. 1: folded unlettered map on an old travel desk, a single pebble. 2: a quiet fictional lakeside terrace seen through branches, distant sage mountains, arriving at a favourite place. 3: close view of a ceramic cup and tiny wildflowers on the terrace, sensory detail. 4: wide empty terrace with two different chairs facing the lake, the same place from another perspective. 5: pebble and blank postcard brought home beside two cups at a window. 6: gathered closing still life of folded map, pebble, wildflower and postcard on paper.",
+      "master": "artwork/storyboards/v2/A02.png",
+      "frames": [
+        "assets/art/stories/A02-01.jpg",
+        "assets/art/stories/A02-02.jpg",
+        "assets/art/stories/A02-03.jpg",
+        "assets/art/stories/A02-04.jpg",
+        "assets/art/stories/A02-05.jpg",
+        "assets/art/stories/A02-06.jpg"
+      ]
+    },
+    {
+      "id": "A03",
+      "direction": "Our first home. 1: open kitchen doorway with moving boxes, simple key on a floorboard, first arrival. 2: close still life of an old kettle and two mismatched cups beside an unpacked box. 3: small lived-in kitchen table at breakfast with crumbs, folded tea towel and those cups. 4: a favourite quiet corner with a sage plant, small lavender lamp and worn chair in afternoon light. 5: window of that small kitchen at dusk, two cups beside the lamp, looking back. 6: gathered closing composition of the key, two cups, tea towel and plant sprig.",
+      "master": "artwork/storyboards/v2/A03.png",
+      "frames": [
+        "assets/art/stories/A03-01.jpg",
+        "assets/art/stories/A03-02.jpg",
+        "assets/art/stories/A03-03.jpg",
+        "assets/art/stories/A03-04.jpg",
+        "assets/art/stories/A03-05.jpg",
+        "assets/art/stories/A03-06.jpg"
+      ]
+    },
+    {
+      "id": "A04",
+      "direction": "A trip we still talk about. 1: canvas travel bag and unlettered map by an open door, setting off. 2: winding unfamiliar woodland path beside a lake, a folded route map resting on a rock, unexpected detour. 3: two cups and simple bread at a little roadside table, a pause during the adventure. 4: close unlettered postcard with a tiny painted lake image, pebble and bag strap in late afternoon light. 5: travel bag back beside the door, open blank notebook and two cups, journey home. 6: gathered closing map, postcard, pebble and notebook on warm paper.",
+      "master": "artwork/storyboards/v2/A04.png",
+      "frames": [
+        "assets/art/stories/A04-01.jpg",
+        "assets/art/stories/A04-02.jpg",
+        "assets/art/stories/A04-03.jpg",
+        "assets/art/stories/A04-04.jpg",
+        "assets/art/stories/A04-05.jpg",
+        "assets/art/stories/A04-06.jpg"
+      ]
+    },
+    {
+      "id": "A05",
+      "direction": "How our little rituals began. 1: two mismatched breakfast cups and one small spoon on a quiet kitchen table. 2: close still life of a single cup with a folded napkin, the humble beginning of a ritual. 3: two familiar cups now together under warm morning window light, spoon between them. 4: one empty cup place and one filled cup, folded napkin, a gently absent ritual, no melancholy drama. 5: cups placed together again on a small breakfast tray, a fresh napkin and sprig. 6: gathered closing arrangement of cups, spoon and softly patterned napkin.",
+      "master": "artwork/storyboards/v2/A05.png",
+      "frames": [
+        "assets/art/stories/A05-01.jpg",
+        "assets/art/stories/A05-02.jpg",
+        "assets/art/stories/A05-03.jpg",
+        "assets/art/stories/A05-04.jpg",
+        "assets/art/stories/A05-05.jpg",
+        "assets/art/stories/A05-06.jpg"
+      ]
+    },
+    {
+      "id": "B01",
+      "direction": "An ordinary Tuesday. 1: quiet kitchen window and breakfast table in soft morning light, two cups. 2: close tabletop with a tiny plate of toast beside a cup, a small good moment. 3: a second cup placed beside the first and a folded shared tea towel, a helpful gesture. 4: evening kitchen counter, plain dishes and towel, lived-in ordinary pause, no clock. 5: two cups on a small clear corner of the table with warm lamplight, a little room for tomorrow. 6: gathered closing breakfast cups, toast plate, folded tea towel and a tiny flower.",
+      "master": "artwork/storyboards/v2/B01.png",
+      "frames": [
+        "assets/art/stories/B01-01.jpg",
+        "assets/art/stories/B01-02.jpg",
+        "assets/art/stories/B01-03.jpg",
+        "assets/art/stories/B01-04.jpg",
+        "assets/art/stories/B01-05.jpg",
+        "assets/art/stories/B01-06.jpg"
+      ]
+    },
+    {
+      "id": "B02",
+      "direction": "What helps me unwind. 1: open window at the end of a long day, shoes and canvas bag set beside a chair. 2: close cup of tea on the windowsill, curtain and last daylight. 3: an inviting armchair with a lavender cushion and soft blanket, space for quiet. 4: two different chairs beside the window with a cup each, room for company without crowding. 5: warm lamp beside that window, two resting cups and a folded blanket, gentle evening. 6: closing still life of tea, lavender cushion, small lamp and a green sprig.",
+      "master": "artwork/storyboards/v2/B02.png",
+      "frames": [
+        "assets/art/stories/B02-01.jpg",
+        "assets/art/stories/B02-02.jpg",
+        "assets/art/stories/B02-03.jpg",
+        "assets/art/stories/B02-04.jpg",
+        "assets/art/stories/B02-05.jpg",
+        "assets/art/stories/B02-06.jpg"
+      ]
+    },
+    {
+      "id": "B03",
+      "direction": "Feeling appreciated. 1: open unlettered notebook and pencil beside a small ceramic cup, remembering a gesture. 2: close folded blank note and a cup set thoughtfully on a table, quiet attention. 3: plain envelope, pencil and a tiny sage sprig on warm wood, a specific little detail. 4: two different small ceramic vessels beside the note, two ways of noticing. 5: small wildflower tucked into the notebook beside the cup, a gesture carried forward. 6: gathered closing still life of the notebook, blank note, sprig and two cups. NO handwriting anywhere.",
+      "master": "artwork/storyboards/v2/B03.png",
+      "frames": [
+        "assets/art/stories/B03-01.jpg",
+        "assets/art/stories/B03-02.jpg",
+        "assets/art/stories/B03-03.jpg",
+        "assets/art/stories/B03-04.jpg",
+        "assets/art/stories/B03-05.jpg",
+        "assets/art/stories/B03-06.jpg"
+      ]
+    },
+    {
+      "id": "B04",
+      "direction": "The things that make us laugh. 1: two mugs on a sunlit garden table, one small origami bird beside them, recalling a laugh. 2: close view of that slightly lopsided paper bird on a softly patterned lavender napkin, the little thing that started it. 3: two different paper birds together beside a mug, shared playful memory. 4: wider garden table under dappled tree shade, two chairs, napkin and birds, room to be playful. 5: simple picnic basket beside the garden table, mugs and paper birds ready for another easy moment. 6: gathered closing still life of the birds, two mugs and folded patterned napkin. Adult quiet wit, not a cartoon.",
+      "master": "artwork/storyboards/v2/B04.png",
+      "frames": [
+        "assets/art/stories/B04-01.jpg",
+        "assets/art/stories/B04-02.jpg",
+        "assets/art/stories/B04-03.jpg",
+        "assets/art/stories/B04-04.jpg",
+        "assets/art/stories/B04-05.jpg",
+        "assets/art/stories/B04-06.jpg"
+      ]
+    },
+    {
+      "id": "B05",
+      "direction": "Making time for us. 1: two empty chairs drawn close to a low table, open blank notebook and a warm lamp, a recent quiet connection. 2: close view of two cups with the notebook closed beside them, attention to each other. 3: folded papers and a canvas bag crowding a small tabletop but clear warm space behind, ordinary interruptions without digital devices. 4: two chairs by a window, a cushion and small cup, the sort of time we miss. 5: clear tabletop again, two cups and open blank notebook with a simple folded paper marker. 6: closing still life of cups, paper marker, small lamp and notebook. No clocks, calendars, writing or productivity imagery.",
+      "master": "artwork/storyboards/v2/B05.png",
+      "frames": [
+        "assets/art/stories/B05-01.jpg",
+        "assets/art/stories/B05-02.jpg",
+        "assets/art/stories/B05-03.jpg",
+        "assets/art/stories/B05-04.jpg",
+        "assets/art/stories/B05-05.jpg",
+        "assets/art/stories/B05-06.jpg"
+      ]
+    },
+    {
+      "id": "C01",
+      "direction": "A Saturday of our own. 1: open garden gate onto a green path in soft morning sun, a basket by the gate. 2: picnic cloth and two cups beside a little breakfast basket, the beginning of a free day. 3: wicker basket on a winding garden path with wildflowers, unplanned afternoon detour. 4: garden table at sunset with two cups and a folded picnic cloth, the day's ending. 5: simple small basket and two cups by an open gate, the easy part we could make real. 6: gathered closing still life of basket, cups, a wildflower and picnic cloth.",
+      "master": "artwork/storyboards/v2/C01.png",
+      "frames": [
+        "assets/art/stories/C01-01.jpg",
+        "assets/art/stories/C01-02.jpg",
+        "assets/art/stories/C01-03.jpg",
+        "assets/art/stories/C01-04.jpg",
+        "assets/art/stories/C01-05.jpg",
+        "assets/art/stories/C01-06.jpg"
+      ]
+    },
+    {
+      "id": "C02",
+      "direction": "A dream we keep postponing. 1: open sage-framed window overlooking distant hazy hills, a quiet sense of possibility. 2: small blank notebook on the sill beside a cup, imagining an ordinary detail of the dream. 3: close unlettered postcard with an abstract little landscape painting, two cups nearby, sharing the wish. 4: folded unlettered map and closed notebook resting at the window, the pause before beginning. 5: notebook opened again with pencil laid beside it and map gently unfolded, a modest first step. 6: gathered closing sill composition of notebook, blank postcard, map and two cups. No prescribed destination, readable marks or symbols.",
+      "master": "artwork/storyboards/v2/C02.png",
+      "frames": [
+        "assets/art/stories/C02-01.jpg",
+        "assets/art/stories/C02-02.jpg",
+        "assets/art/stories/C02-03.jpg",
+        "assets/art/stories/C02-04.jpg",
+        "assets/art/stories/C02-05.jpg",
+        "assets/art/stories/C02-06.jpg"
+      ]
+    },
+    {
+      "id": "C03",
+      "direction": "A little more of this. 1: simple garden table with two cups in afternoon light, remembering a good ordinary moment. 2: close cups beside a small green sprig and dappled light, noticing its ingredients. 3: two different little ceramic cups and two different small sprigs on the same table, room for each person's version. 4: folded napkin moved to the side of the table, a small clear space around the cups, making room. 5: two cups placed together on a tray by the garden door, ready to enjoy once again. 6: gathered closing still life of two cups, a sprig and folded lavender napkin.",
+      "master": "artwork/storyboards/v2/C03.png",
+      "frames": [
+        "assets/art/stories/C03-01.jpg",
+        "assets/art/stories/C03-02.jpg",
+        "assets/art/stories/C03-03.jpg",
+        "assets/art/stories/C03-04.jpg",
+        "assets/art/stories/C03-05.jpg",
+        "assets/art/stories/C03-06.jpg"
+      ]
+    },
+    {
+      "id": "C04",
+      "direction": "Something new, together. 1: folded unlettered map and closed terracotta notebook, a pencil on warm ivory paper, curiosity. 2: notebook opened to blank pages, one ceramic cup and tiny paintbrush, imagining the appeal. 3: two humble handmade clay cups, slightly uneven, beside that notebook, being beginners together. 4: those two cups with two different small leaves placed side by side on the unlettered map, room for both preferences. 5: a single pencil, small blank folded card and two cups arranged simply by an open door, the easiest first try. 6: gathered closing notebook, pencil, folded map and handmade cups. No labels, writing or destinations.",
+      "master": "artwork/storyboards/v2/C04.png",
+      "frames": [
+        "assets/art/stories/C04-01.jpg",
+        "assets/art/stories/C04-02.jpg",
+        "assets/art/stories/C04-03.jpg",
+        "assets/art/stories/C04-04.jpg",
+        "assets/art/stories/C04-05.jpg",
+        "assets/art/stories/C04-06.jpg"
+      ]
+    },
+    {
+      "id": "C05",
+      "direction": "The home feeling we want. 1: warm open window with a soft curtain and welcoming interior light, home as a feeling. 2: close lavender cushion and a familiar mug in a comfortable chair, what already feels good. 3: window nook with two different cushions, a cup and small plant, imagining a little more welcome. 4: two different chairs beside the same window, one with blanket and one with open space, room for different comforts. 5: small lamp switched on beside two cups and a green plant, a gentle possible change. 6: gathered closing still life of soft cushion, two cups, small lamp and sage plant.",
+      "master": "artwork/storyboards/v2/C05.png",
+      "frames": [
+        "assets/art/stories/C05-01.jpg",
+        "assets/art/stories/C05-02.jpg",
+        "assets/art/stories/C05-03.jpg",
+        "assets/art/stories/C05-04.jpg",
+        "assets/art/stories/C05-05.jpg",
+        "assets/art/stories/C05-06.jpg"
+      ]
+    }
+  ]
+}

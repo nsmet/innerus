@@ -1,0 +1,9 @@
+{
+  "id": "S13",
+  "tool": "Built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit ONLY the bottom-right panel (panel 6) of this two-column by three-row watercolor sheet. The closing is 'If you like, keep a few words about the dream. We can leave the date blank.' Replace the wide-open EMPTY cello case with the same cello case gently CLOSED and resting upright beside the open music-room doorway; its latches are plainly unfastened, a single cello bow safely resting in a narrow holder alongside it. The instrument is safely inside, implied by the closed case. Soft daylight and open space beyond, a wish available to return to without a deadline. No loss, abandonment, clock or calendar. Preserve the other FIVE panels EXACTLY, including people, gestures, instruments, backgrounds, watercolor brushwork, colors, paper edges, exact square dimensions and two-column three-row grid. No text, cups or extra decorative props.",
+  "source": "/Users/nsmet/.codex/generated_images/01a16887-bab1-7ea2-a70d-ae738a24310a/exec-5d004114-1ec8-4b67-9d50-6e39d1f9d513.png",
+  "target": "artwork/storyboards/editorial-v2/masters/S13-before-ending-edit.png",
+  "master": "artwork/storyboards/editorial-v2/masters/S13.png",
+  "reason": "The optional dream ending should feel available to return to, not like an instrument is missing."
+}

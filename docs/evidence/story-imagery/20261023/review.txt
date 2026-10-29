@@ -1,0 +1,10 @@
+InnerUs story imagery — static verification, 23 October 2026
+PASS: all 15 final source sheets and all 90 corrected crops visually reviewed (four contact sheets).
+PASS: individual final JPEG inspection includes S02-01 (full clementine), S08-04 (neighbor strip removed), S15-06 (closing composition).
+PASS: 15 exact generation prompts/source paths, selected master hashes, 90 unique JPEG hashes and exact question/closing mappings retained.
+PASS: all 90 JPEGs are 570×380, sRGB IEC61966-2.1; all hashes/byte counts and relative review paths match.
+PASS: local review script parses with Node 22.22.0; no remote resource URLs.
+PASS: crop coordinates follow reviewed paper gaps; no upscaling. Rain-scene JPEG comparison inspected before final Q74 export.
+Final frames: 8178169 bytes (7.80 MiB); 22.2% smaller than initial equal-grid/Q80 export. Crop and quality both changed.
+BLOCKED browser-only review: in-app URL policy rejected file:// navigation. No workaround attempted. Images and local files checked directly; browser interactions remain unverified.
+No application tests, native build, device behavior, runtime integration or acceptance promotion claimed.
