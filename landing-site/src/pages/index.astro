@@ -1,10 +1,8 @@
 ---
-import WatercolorReveal from "../components/WatercolorReveal.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import content from "../content/index.html?raw";
 import "../styles/index.css";
 ---
 <BaseLayout title="Conversation starters for couples | InnerUs" description="Make time for each other with InnerUs: illustrated conversation starters for couples, private moments and no subscription." path="/" bilingualHome>
   <Fragment set:html={content} />
-  <WatercolorReveal />
 </BaseLayout>
