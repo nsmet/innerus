@@ -37,3 +37,7 @@ The homepage has English (`/`) and Dutch (`/nl/`) versions with visible language
 Each indexed route has its own title, description and canonical URL; the home page also includes WebSite structured data. The sitemap and robots file use `https://innerus.app`. Images have intrinsic dimensions and descriptive alt text, and the site provides a PNG search favicon and iOS touch icon. The 404 page is excluded from indexing.
 
 After publishing and connecting the real domain, verify ownership in Google Search Console, submit `https://innerus.app/sitemap.xml`, and use URL Inspection on the English and Dutch landing pages. Confirm public URLs, canonical metadata, old links, crawlability and both mobile layouts. Search engines choose their own snippets and indexing/ranking is not guaranteed. Have the Dutch marketing copy reviewed with the rest of the launch translations. Do not submit a private preview as the production site.
+
+## Live deployment
+
+The site is deployed to the Cloudflare Pages project `innerus-website` at `https://innerus.app` and `https://innerus-website.pages.dev`. It is a direct-upload project, not connected to Git; pushing to GitHub alone does not deploy changes. To publish updates, build with Node 24 and run `npx wrangler pages deploy dist --project-name innerus-website --branch main` from `landing-site/` after signing in. Keep the current DNS, email records, privacy review and app release gates in mind when making changes.
