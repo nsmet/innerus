@@ -62,3 +62,30 @@ details[open] .plus-v{display:none}
 }
 .language-link{color:#5c5060;font-size:16px;text-underline-offset:6px;min-height:44px;display:inline-flex;align-items:center}
 img{height:auto}
+
+/* Feathered pigment blooms, echoing the app's 1.5-second story-art reveal. */
+@media (prefers-reduced-motion: no-preference) {
+  .watercolor-bloom {
+    animation: watercolor-bloom 1500ms ease-in-out;
+  }
+  @supports ((mask-image: radial-gradient(black, transparent)) or (-webkit-mask-image: radial-gradient(black, transparent))) {
+    .watercolor-bloom {
+      -webkit-mask-image: radial-gradient(ellipse, #000 48%, transparent 72%), radial-gradient(ellipse, #000 48%, transparent 72%), radial-gradient(ellipse, #000 48%, transparent 72%);
+      mask-image: radial-gradient(ellipse, #000 48%, transparent 72%), radial-gradient(ellipse, #000 48%, transparent 72%), radial-gradient(ellipse, #000 48%, transparent 72%);
+      -webkit-mask-position: 38% 34%, 70% 60%, 27% 75%;
+      mask-position: 38% 34%, 70% 60%, 27% 75%;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      animation-name: watercolor-pigment;
+    }
+    @keyframes watercolor-pigment {
+      0% { opacity: .28; -webkit-mask-size: 12% 12%, 16% 16%, 10% 10%; mask-size: 12% 12%, 16% 16%, 10% 10%; }
+      55% { opacity: .78; -webkit-mask-size: 130% 130%, 145% 145%, 110% 110%; mask-size: 130% 130%, 145% 145%, 110% 110%; }
+      100% { opacity: 1; -webkit-mask-size: 450% 450%, 450% 450%, 450% 450%; mask-size: 450% 450%, 450% 450%, 450% 450%; }
+    }
+  }
+  @keyframes watercolor-bloom {
+    from { opacity: .28; }
+    to { opacity: 1; }
+  }
+}

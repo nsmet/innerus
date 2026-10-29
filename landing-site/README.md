@@ -14,7 +14,7 @@ npm run dev
 npm run build
 ```
 
-The editable content is in `src/content/`, page metadata and routes in `src/pages/`, the shared HTML metadata in `src/layouts/`, and images/fonts and Cloudflare files in `public/`. The site builds to `dist/`; edit the sources, not generated files. Its pages render as static HTML without client-side application JavaScript, analytics, contact forms or externally hosted fonts. Email links open the visitor's email app.
+The editable content is in `src/content/`, page metadata and routes in `src/pages/`, the shared HTML metadata in `src/layouts/`, and images/fonts and Cloudflare files in `public/`. The site builds to `dist/`; edit the sources, not generated files. Its pages render as static HTML, with a small script for the optional watercolor image reveal. Images remain visible without JavaScript. There are no analytics, contact forms or externally hosted fonts. Email links open the visitor's email app.
 
 ## Cloudflare Pages
 

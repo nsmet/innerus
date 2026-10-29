@@ -1,0 +1,46 @@
+<script>
+  // Paint each image once as it enters view. Without JavaScript, images stay visible.
+  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const pending = new Set(document.querySelectorAll<HTMLImageElement>('[data-watercolor-reveal]'));
+
+  const bloom = (painting: Element) => {
+    painting.addEventListener('animationend', () => {
+      painting.classList.remove('watercolor-bloom');
+    }, { once: true });
+    painting.classList.add('watercolor-bloom');
+    pending.delete(painting as HTMLImageElement);
+  };
+
+  if (!motion.matches) {
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          bloom(entry.target);
+          observer.unobserve(entry.target);
+        }
+      }, { threshold: 0.15 });
+      pending.forEach((painting) => observer.observe(painting));
+      motion.addEventListener('change', (event) => {
+        if (event.matches) observer.disconnect();
+      }, { once: true });
+    } else {
+      const update = () => {
+        if (motion.matches || pending.size === 0) {
+          window.removeEventListener('scroll', update, true);
+          window.removeEventListener('resize', update);
+          return;
+        }
+        for (const painting of pending) {
+          const rect = painting.getBoundingClientRect();
+          const strip = painting.closest('.steps')?.getBoundingClientRect();
+          if (rect.bottom > 0 && rect.top < innerHeight && rect.right > 0 && rect.left < innerWidth &&
+              (!strip || (rect.right > strip.left && rect.left < strip.right))) bloom(painting);
+        }
+      };
+      window.addEventListener('scroll', update, { passive: true, capture: true });
+      window.addEventListener('resize', update, { passive: true });
+      requestAnimationFrame(update);
+    }
+  }
+</script>
